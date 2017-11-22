@@ -1,13 +1,13 @@
 %YAML:1.0
 ---
 versionCode: 1710118
-timestamp: "131558260056540000"
+timestamp: "131558268371020000"
 workflows:
    -
       id: 0
       chapters: []
-chapters: [ 0 ]
+chapters: [ 0, 1 ]
 transitions:
-   []
+   - { from:0, to:1, label:"", condition:"" }
 associations:
    []
