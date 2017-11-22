@@ -1,0 +1,29 @@
+%YAML:1.0
+---
+recording:
+   type: VideoRecording
+   recordId: Check_20171122T125725
+   channelId: main
+   timeStamp: "131558290454330000"
+   sessionTimestamp: "0"
+   width: -1
+   height: -1
+   frameCount: 38
+   fps: 2.9969999999999999e+001
+   recordingType: 2000
+   frameTransformRect: [ [ -1, -1 ], [ -1, -1 ], [ -1, -1 ], [ -1, -1 ] ]
+   trackingMode: 1
+   segments:
+      - { startFrame:0, stopFrame:31, segmentType:1000, focusFrame:-1,
+          focusPoint:{ values:[ -1., -1. ], type:Vector2 }, isFragment:0 }
+   framesRelTs: [ "0", "520000", "1470000", "1900000", "4290000",
+       "4690000", "5970000", "6380000", "7460000", "7930000", "9110000",
+       "9630000", "10660000", "11060000", "12200000", "12630000",
+       "13610000", "14190000", "15650000", "16290000", "17440000",
+       "17900000", "19060000", "19450000", "20620000", "21070000",
+       "22270000", "22670000", "23690000", "24120000", "25160000",
+       "25580000", "26720000", "27130000", "28220000", "28610000",
+       "29770000", "31520000" ]
+   chunks:
+      - { path:"Recordings/Check_20171122T125725/recording.avi",
+          startFrameIdx:0 }

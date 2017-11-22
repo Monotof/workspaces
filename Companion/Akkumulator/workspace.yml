@@ -1,13 +1,27 @@
 %YAML:1.0
 ---
 versionCode: 1710118
-timestamp: "131558284436620000"
+timestamp: "131558328264860000"
 workflows:
    -
       id: 0
       chapters: []
-chapters: [ 0 ]
+chapters: [ 0, 13, 12, 11, 10, 9, 7, 8, 1, 3 ]
 transitions:
-   []
+   - { from:0, to:7, label:"", condition:"" }
+   - { from:7, to:8, label:"", condition:"" }
+   - { from:8, to:9, label:"", condition:"" }
+   - { from:9, to:10, label:"", condition:"" }
+   - { from:10, to:11, label:"", condition:"" }
+   - { from:11, to:12, label:"", condition:"" }
+   - { from:12, to:13, label:"", condition:"" }
 associations:
-   []
+   - { first:1, second:10, label:validate }
+   - { first:3, second:11, label:validate }
+   - { first:7, second:7, label:validate }
+   - { first:8, second:8, label:validate }
+   - { first:9, second:9, label:validate }
+   - { first:10, second:10, label:validate }
+   - { first:11, second:11, label:validate }
+   - { first:12, second:12, label:validate }
+   - { first:13, second:13, label:validate }
