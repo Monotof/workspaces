@@ -1,0 +1,55 @@
+%YAML:1.0
+---
+chapterId: 3
+title: Workflow
+description: ""
+fields:
+   {}
+chapterType: 0
+options:
+   locationAnnotation: 1
+   customActionView: 1
+   customValidationView: 1
+sections:
+   -
+      sectionId: 3000
+      sectionType: -1000
+      channelId: main
+      distance: 1.
+      startFrame: 0
+      stopFrame: 0
+      focusFrame: 0
+      focusPoint: { values:[ 640., 360. ], type:Vector2 }
+      focusPose:
+         rows: 4
+         cols: 4
+         values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.,
+             0., 0., 1. ]
+         type: Matrix
+      focusROI:
+         type: "Vector2[][]"
+         values:
+            []
+      minDurationRelTS: "0"
+      animationPeriod: "0"
+      recordId: ""
+      homography:
+         rows: 3
+         cols: 3
+         values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+         type: Matrix
+      similarities:
+         []
+      annotations:
+         -
+            codeToCommandMap:
+               - [ "", "" ]
+            annotationId: 3000000
+            sectionId: 3000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: TechnicalCustom
+            type: CodeScannerElement

@@ -3,9 +3,13 @@
 chapterId: 1
 title: Step
 description: Please describe the step
+fields:
+   {}
 chapterType: 2001
 options:
    locationAnnotation: 1
+   customActionView: 1
+   customValidationView: 1
 sections:
    -
       sectionId: 1000
