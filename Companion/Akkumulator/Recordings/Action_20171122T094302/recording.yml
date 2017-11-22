@@ -6,15 +6,18 @@ recording:
    channelId: main
    timeStamp: "131558173821680000"
    sessionTimestamp: "0"
-   width: 0
-   height: 0
+   width: -1
+   height: -1
    frameCount: 71
    fps: 2.9969999999999999e+001
    recordingType: 2000
    frameTransformRect: [ [ -1, -1 ], [ -1, -1 ], [ -1, -1 ], [ -1, -1 ] ]
    trackingMode: 1
    segments:
-      []
+      - { startFrame:26, stopFrame:54, segmentType:2000, focusFrame:-1,
+          focusPoint:{ values:[ -1., -1. ], type:Vector2 }, isFragment:0 }
+      - { startFrame:0, stopFrame:64, segmentType:1000, focusFrame:-1,
+          focusPoint:{ values:[ -1., -1. ], type:Vector2 }, isFragment:0 }
    framesRelTs: [ "0", "740000", "1280000", "2150000", "2580000",
        "3400000", "3920000", "4800000", "5290000", "6020000", "6500000",
        "7320000", "7930000", "8640000", "9160000", "9910000", "10450000",
