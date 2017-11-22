@@ -1,0 +1,18 @@
+%YAML:1.0
+---
+recording:
+   type: ImgSeqRecording
+   recordId: BrightBackground
+   channelId: template
+   timeStamp: "131558154043700000"
+   sessionTimestamp: "0"
+   width: 1280
+   height: 720
+   frameCount: 1
+   fps: 2.9969999999999999e+001
+   recordingType: 4000
+   frameTransformRect: [ [ -1, -1 ], [ -1, -1 ], [ -1, -1 ], [ -1, -1 ] ]
+   trackingMode: 1
+   segments:
+      []
+   framesRelTs: [ "0" ]
