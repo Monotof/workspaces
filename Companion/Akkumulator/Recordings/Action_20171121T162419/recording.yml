@@ -14,11 +14,7 @@ recording:
    frameTransformRect: [ [ -1, -1 ], [ -1, -1 ], [ -1, -1 ], [ -1, -1 ] ]
    trackingMode: 1
    segments:
-      - { startFrame:3, stopFrame:25, segmentType:2000, focusFrame:-1,
-          focusPoint:{ values:[ -1., -1. ], type:Vector2 }, isFragment:0 }
-      - { startFrame:45, stopFrame:71, segmentType:2000, focusFrame:-1,
-          focusPoint:{ values:[ -1., -1. ], type:Vector2 }, isFragment:0 }
-      - { startFrame:0, stopFrame:99, segmentType:1000, focusFrame:-1,
+      - { startFrame:0, stopFrame:22, segmentType:1000, focusFrame:-1,
           focusPoint:{ values:[ -1., -1. ], type:Vector2 }, isFragment:0 }
    framesRelTs: [ "0", "560000", "1730000", "2730000", "3410000",
        "4180000", "4830000", "5460000", "6180000", "6860000", "7490000",
