@@ -1,15 +1,11 @@
 %YAML:1.0
 ---
 chapterId: 3
-title: Workflow
-description: ""
-fields:
-   {}
-chapterType: 0
+title: Code scanning
+description: Place the code inside the viewfinder
+chapterType: 4000
 options:
    locationAnnotation: 1
-   customActionView: 1
-   customValidationView: 1
 sections:
    -
       sectionId: 3000
