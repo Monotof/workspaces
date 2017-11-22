@@ -1,11 +1,16 @@
 %YAML:1.0
 ---
 chapterId: 7
-title: ""
+title: Step
 description: ""
+fields:
+   {}
 chapterType: 2001
 options:
    locationAnnotation: 1
+   instructionVideoStabilization: 1
+   customActionView: 1
+   customValidationView: 1
 sections:
    -
       sectionId: 7000
