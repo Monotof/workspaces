@@ -139,6 +139,27 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
+            modelSectionId: 24000
+            counterSectionId: -1
+            weightMapPath: "0024/00024000/discrMask.png"
+            center:
+               values: [ 1011., 609. ]
+               type: Vector2
+            errorThreshold: 5.0000000000000003e-002
+            correctThreshold: 0.
+            wrongThreshold: 1.
+            lostCommand: ""
+            failCommand: ""
+            annotationId: 1000004
+            sectionId: 1000
+            layer: -1
+            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=1011.000000 677.000000&command=tracker->command setSection=24000"
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Technical
+            type: ValidationElement
+         -
             source: [ 6.3950000000000000e+002, 0. ]
             target: [ 6.3950000000000000e+002, 719. ]
             sourceTrackingType: 3
@@ -310,3 +331,24 @@ sections:
             maskAnimationInterval: 1.5000000000000000e+000
             radialMaskCenter: [ 5.0000000000000000e-001,
                 5.0000000000000000e-001 ]
+         -
+            modelSectionId: 24000
+            counterSectionId: -1
+            weightMapPath: "0024/00024000/discrMask.png"
+            center:
+               values: [ 1011., 609. ]
+               type: Vector2
+            errorThreshold: 5.0000000000000003e-002
+            correctThreshold: 0.
+            wrongThreshold: 1.
+            lostCommand: "tracker->command addToSectionMemory=validationFailed"
+            failCommand: "tracker->command addToSectionMemory=validationFailed"
+            annotationId: 1002002
+            sectionId: 1002
+            layer: -1
+            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=1011.000000 677.000000&command=tracker->command setSection=24000"
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Technical
+            type: ValidationElement
