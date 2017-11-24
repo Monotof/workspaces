@@ -1,0 +1,45 @@
+%YAML:1.0
+---
+chapterId: 32
+title: ""
+description: ""
+chapterType: 6000
+options:
+   locationAnnotation: 1
+   customActionView: 1
+   customValidationView: 1
+sections:
+   -
+      sectionId: 32000
+      sectionType: 1002
+      channelId: main
+      distance: 1.
+      startFrame: 145
+      stopFrame: 154
+      focusFrame: 145
+      focusPoint: { values:[ 993., 589. ], type:Vector2 }
+      focusPose:
+         rows: 4
+         cols: 4
+         values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.,
+             0., 0., 1. ]
+         type: Matrix
+      focusROI:
+         type: "Vector2[][]"
+         values:
+            []
+      minDurationRelTS: "0"
+      animationPeriod: "0"
+      recordId: Action_20171124T150242
+      homography:
+         rows: 3
+         cols: 3
+         values: [ 1.0284378887965637e+000, 5.5032710348556554e-003,
+             -3.3871607462847969e+001, -5.5032710348556554e-003,
+             1.0284378887965637e+000, -1.3898722492814505e+001, 0., 0.,
+             1. ]
+         type: Matrix
+      similarities:
+         []
+      annotations:
+         []

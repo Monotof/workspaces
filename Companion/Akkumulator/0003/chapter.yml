@@ -4,9 +4,9 @@ chapterId: 3
 title: "2x Halter aufstecken"
 description: ""
 fields:
-   Info: Mehr Info
-   Left_Hand: Mach ich mit links
-   Right_Hand: Mach ich mit auch mit links
+   Info: ""
+   Left_Hand: ""
+   Right_Hand: ""
    Symbol: ""
 chapterType: 2001
 options:
@@ -22,7 +22,7 @@ sections:
       startFrame: 0
       stopFrame: 9
       focusFrame: 5
-      focusPoint: { values:[ 640., 360. ], type:Vector2 }
+      focusPoint: { values:[ 697., 389. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2
@@ -176,7 +176,7 @@ sections:
             wrongThreshold: 1.
             lostCommand: ""
             failCommand: ""
-            annotationId: 3000005
+            annotationId: 3000002
             sectionId: 3000
             layer: -1
             command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=581.000000 409.000000&command=tracker->command setSection=22000"
@@ -186,8 +186,8 @@ sections:
             category: Technical
             type: ValidationElement
          -
-            source: [ 6.3950000000000000e+002, 0. ]
-            target: [ 6.3950000000000000e+002, 719. ]
+            source: [ 6.9650000000000000e+002, 0. ]
+            target: [ 6.9650000000000000e+002, 720. ]
             sourceTrackingType: 3
             targetTrackingType: 3
             opacity: 8.9999997615814209e-001
@@ -196,7 +196,7 @@ sections:
             fadeIn: 0.
             fadeOut: 0.
             zIndex: -10
-            annotationId: 3000002
+            annotationId: 3000005
             sectionId: 3000
             layer: 0
             command: ""
@@ -210,7 +210,7 @@ sections:
             maskPath: ""
             maskAnimationInterval: 1.5000000000000000e+000
             radialMaskCenter: [ 5.0034773349761963e-001,
-                5.0034773349761963e-001 ]
+                5.2013885974884033e-001 ]
    -
       sectionId: 3001
       sectionType: 2001
@@ -219,7 +219,7 @@ sections:
       startFrame: 10
       stopFrame: 206
       focusFrame: 108
-      focusPoint: { values:[ 640., 360. ], type:Vector2 }
+      focusPoint: { values:[ 697., 389. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2
@@ -252,7 +252,7 @@ sections:
       startFrame: 207
       stopFrame: 216
       focusFrame: 207
-      focusPoint: { values:[ 640., 360. ], type:Vector2 }
+      focusPoint: { values:[ 697., 389. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2

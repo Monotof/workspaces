@@ -1,11 +1,13 @@
 %YAML:1.0
 ---
 chapterId: 23
-title: ""
+title: Akkumulator Baugruppe
 description: ""
 chapterType: 6000
 options:
    locationAnnotation: 1
+   customActionView: 1
+   customValidationView: 1
 sections:
    -
       sectionId: 23000

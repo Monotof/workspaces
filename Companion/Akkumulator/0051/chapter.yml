@@ -1,0 +1,205 @@
+%YAML:1.0
+---
+chapterId: 51
+title: Fertig
+description: Du bist mit diesem Teil fertig
+fields:
+   {}
+chapterType: 4000
+options:
+   locationAnnotation: 1
+   customActionView: 1
+   customValidationView: 1
+sections:
+   -
+      sectionId: 51000
+      sectionType: 4000
+      channelId: upload
+      distance: 1.
+      startFrame: 0
+      stopFrame: 0
+      focusFrame: 0
+      focusPoint: { values:[ 640., 360. ], type:Vector2 }
+      focusPose:
+         rows: 4
+         cols: 4
+         values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.,
+             0., 0., 1. ]
+         type: Matrix
+      focusROI:
+         type: "Vector2[][]"
+         values:
+            -
+               type: "Vector2[]"
+               values:
+                  -
+                     values: [ 0., 0. ]
+                     type: Vector2
+                  -
+                     values: [ 2560., 0. ]
+                     type: Vector2
+                  -
+                     values: [ 2560., 1440. ]
+                     type: Vector2
+      minDurationRelTS: "0"
+      animationPeriod: "0"
+      recordId: BrightBackground
+      homography:
+         rows: 3
+         cols: 3
+         values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+         type: Matrix
+      similarities:
+         []
+      annotations:
+         -
+            source: [ 1.9409179687500000e+001, 1.0381742858886719e+002 ]
+            target: [ 4.1311264038085938e+001, 2.9357199096679688e+002 ]
+            sourceTrackingType: 3
+            targetTrackingType: 3
+            opacity: 8.9999997615814209e-001
+            pulsingInterval: -1.
+            color: [ 255, 255, 255 ]
+            fadeIn: 0.
+            fadeOut: 1.
+            zIndex: 0
+            annotationId: 51000000
+            sectionId: 51000
+            layer: 0
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: TextBox
+            layout: 0
+            anchor: 0
+            text: ""
+            fontPath: "assets/fonts/Exo2-Regular.ttf"
+            centered: 0
+            fontSizeSingleLine: 0
+            caption: "#{title}"
+            captionColor: [ 255, 192, 0 ]
+            captionBackgroundColor: [ 255, 255, 255, 80 ]
+            captionWeight: 1.5000000000000000e+000
+         -
+            source: [ 1.0347789306640625e+003, 3.9342526245117187e+002 ]
+            target: [ 1.0347789306640625e+003, 6.9342553710937500e+002 ]
+            sourceTrackingType: 2
+            targetTrackingType: 2
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 51000005
+            sectionId: 51000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: "assets/objects/pedal/pedal3.png"
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
+            source: [ 1.1341781005859375e+003, 4.0287139892578125e+002 ]
+            target: [ 1.1411732177734375e+003, 5.9727856445312500e+002 ]
+            sourceTrackingType: 2
+            targetTrackingType: 2
+            opacity: 8.9999997615814209e-001
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 1.
+            zIndex: 10
+            annotationId: 51000002
+            sectionId: 51000
+            layer: 0
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: assets/directional/green/down/
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
+            source: [ 6.3154565429687500e+002, -1.3138394355773926e+000 ]
+            target: [ 6.2722863769531250e+002, -9.8611137390136719e+001 ]
+            sourceTrackingType: 2
+            targetTrackingType: 2
+            opacity: 8.9999997615814209e-001
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 1.
+            zIndex: 0
+            annotationId: 51000003
+            sectionId: 51000
+            layer: 0
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: assets/directional/green/down/
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
+            source: [ 7.6062721252441406e+001, 2.0917367553710937e+002 ]
+            target: [ 8.4449356079101563e+001, 2.9624234008789063e+002 ]
+            sourceTrackingType: 2
+            targetTrackingType: 2
+            opacity: 8.9999997615814209e-001
+            pulsingInterval: -1.
+            color: [ 74, 113, 168 ]
+            fadeIn: 0.
+            fadeOut: 1.
+            zIndex: 0
+            annotationId: 51000004
+            sectionId: 51000
+            layer: 0
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Label
+            text: "#{description}"
+            fontPath: "assets/fonts/Exo2-Regular.ttf"
+            centered: 0
+            autoLineBreakCharacterCount : -1
+            drawShadow: 1
+            fontSizeSingleLine: 0
+            backgroundColor: [ 0, 0, 0, 0 ]
+         -
+            annotationId: 51000001
+            sectionId: 51000
+            layer: 3
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: InstructionVideo
+            type: FileAnnotation
+            path: "assets/InstructionVideos/00051000.mp4"
+            title: Instruction Video
+            printFlag: 0
+            page: 1
+            thumbnail: ""
+            runDirectly: 0

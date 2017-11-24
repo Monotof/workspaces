@@ -17,7 +17,7 @@ sections:
       startFrame: 0
       stopFrame: 9
       focusFrame: 9
-      focusPoint: { values:[ 955., 354. ], type:Vector2 }
+      focusPoint: { values:[ 1014., 349. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2
@@ -162,8 +162,8 @@ sections:
             maskType: 32
             maskPath: ""
             maskAnimationInterval: 1.5000000000000000e+000
-            radialMaskCenter: [ 5.2430558204650879e-001,
-                4.9583333730697632e-001 ]
+            radialMaskCenter: [ 5.6527781486511230e-001,
+                4.9236112833023071e-001 ]
    -
       sectionId: 4001
       sectionType: 2001
@@ -172,7 +172,7 @@ sections:
       startFrame: 10
       stopFrame: 131
       focusFrame: 70
-      focusPoint: { values:[ 955., 354. ], type:Vector2 }
+      focusPoint: { values:[ 1014., 349. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2
@@ -205,7 +205,7 @@ sections:
       startFrame: 132
       stopFrame: 141
       focusFrame: 132
-      focusPoint: { values:[ 955., 354. ], type:Vector2 }
+      focusPoint: { values:[ 1014., 349. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2

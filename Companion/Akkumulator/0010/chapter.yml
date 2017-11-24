@@ -140,6 +140,48 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
+            modelSectionId: 45000
+            counterSectionId: -1
+            weightMapPath: "0045/00045000/discrMask.png"
+            center:
+               values: [ 799., 434. ]
+               type: Vector2
+            errorThreshold: 5.0000000000000003e-002
+            correctThreshold: 0.
+            wrongThreshold: 1.
+            lostCommand: ""
+            failCommand: ""
+            annotationId: 10000004
+            sectionId: 10000
+            layer: -1
+            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=799.000000 454.000000&command=tracker->command setSection=45000"
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Technical
+            type: ValidationElement
+         -
+            modelSectionId: 44000
+            counterSectionId: -1
+            weightMapPath: "0044/00044000/discrMask.png"
+            center:
+               values: [ 569., 426. ]
+               type: Vector2
+            errorThreshold: 5.0000000000000003e-002
+            correctThreshold: 0.
+            wrongThreshold: 1.
+            lostCommand: ""
+            failCommand: ""
+            annotationId: 10000005
+            sectionId: 10000
+            layer: -1
+            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=569.000000 446.000000&command=tracker->command setSection=44000"
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Technical
+            type: ValidationElement
+         -
             source: [ 6.8950000000000000e+002, 0. ]
             target: [ 6.8950000000000000e+002, 720. ]
             sourceTrackingType: 3
@@ -313,3 +355,45 @@ sections:
             maskAnimationInterval: 1.5000000000000000e+000
             radialMaskCenter: [ 5.0000000000000000e-001,
                 5.0000000000000000e-001 ]
+         -
+            modelSectionId: 45000
+            counterSectionId: -1
+            weightMapPath: "0045/00045000/discrMask.png"
+            center:
+               values: [ 799., 434. ]
+               type: Vector2
+            errorThreshold: 5.0000000000000003e-002
+            correctThreshold: 0.
+            wrongThreshold: 1.
+            lostCommand: "tracker->command addToSectionMemory=validationFailed"
+            failCommand: "tracker->command addToSectionMemory=validationFailed"
+            annotationId: 10002002
+            sectionId: 10002
+            layer: -1
+            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=799.000000 454.000000&command=tracker->command setSection=45000"
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Technical
+            type: ValidationElement
+         -
+            modelSectionId: 44000
+            counterSectionId: -1
+            weightMapPath: "0044/00044000/discrMask.png"
+            center:
+               values: [ 569., 426. ]
+               type: Vector2
+            errorThreshold: 5.0000000000000003e-002
+            correctThreshold: 0.
+            wrongThreshold: 1.
+            lostCommand: "tracker->command addToSectionMemory=validationFailed"
+            failCommand: "tracker->command addToSectionMemory=validationFailed"
+            annotationId: 10002003
+            sectionId: 10002
+            layer: -1
+            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=569.000000 446.000000&command=tracker->command setSection=44000"
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Technical
+            type: ValidationElement

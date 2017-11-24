@@ -17,7 +17,7 @@ sections:
       startFrame: 0
       stopFrame: 9
       focusFrame: 9
-      focusPoint: { values:[ 401., 332. ], type:Vector2 }
+      focusPoint: { values:[ 358., 338. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2
@@ -139,8 +139,8 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
-            source: [ 4.0050000000000000e+002, 0. ]
-            target: [ 4.0050000000000000e+002, 720. ]
+            source: [ 360., 0. ]
+            target: [ 360., 720. ]
             sourceTrackingType: 3
             targetTrackingType: 3
             opacity: 8.9999997615814209e-001
@@ -162,8 +162,8 @@ sections:
             maskType: 32
             maskPath: ""
             maskAnimationInterval: 1.5000000000000000e+000
-            radialMaskCenter: [ 5.0034773349761963e-001,
-                4.8055553436279297e-001 ]
+            radialMaskCenter: [ 4.9861109256744385e-001,
+                4.8472222685813904e-001 ]
    -
       sectionId: 5001
       sectionType: 2001
@@ -172,7 +172,7 @@ sections:
       startFrame: 10
       stopFrame: 113
       focusFrame: 61
-      focusPoint: { values:[ 401., 332. ], type:Vector2 }
+      focusPoint: { values:[ 358., 338. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2
@@ -205,7 +205,7 @@ sections:
       startFrame: 114
       stopFrame: 123
       focusFrame: 114
-      focusPoint: { values:[ 401., 332. ], type:Vector2 }
+      focusPoint: { values:[ 358., 338. ], type:Vector2 }
       focusPose:
          rows: 2
          cols: 2
