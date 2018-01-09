@@ -160,27 +160,6 @@ sections:
             category: Technical
             type: ValidationElement
          -
-            modelSectionId: 40000
-            counterSectionId: -1
-            weightMapPath: "0040/00040000/discrMask.png"
-            center:
-               values: [ 708., 266. ]
-               type: Vector2
-            errorThreshold: 5.0000000000000003e-002
-            correctThreshold: 0.
-            wrongThreshold: 1.
-            lostCommand: ""
-            failCommand: ""
-            annotationId: 7000005
-            sectionId: 7000
-            layer: -1
-            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=708.000000 286.000000&command=tracker->command setSection=40000"
-            startRelTS: "0"
-            runPeriod: 23
-            duration: -1.
-            category: Technical
-            type: ValidationElement
-         -
             modelSectionId: 39000
             counterSectionId: -1
             weightMapPath: "0039/00039000/discrMask.png"
@@ -192,10 +171,31 @@ sections:
             wrongThreshold: 1.
             lostCommand: ""
             failCommand: ""
-            annotationId: 7000006
+            annotationId: 7000005
             sectionId: 7000
             layer: -1
             command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=926.000000 299.000000&command=tracker->command setSection=39000"
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Technical
+            type: ValidationElement
+         -
+            modelSectionId: 40000
+            counterSectionId: -1
+            weightMapPath: "0040/00040000/discrMask.png"
+            center:
+               values: [ 708., 266. ]
+               type: Vector2
+            errorThreshold: 5.0000000000000003e-002
+            correctThreshold: 0.
+            wrongThreshold: 1.
+            lostCommand: ""
+            failCommand: ""
+            annotationId: 7000006
+            sectionId: 7000
+            layer: -1
+            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=708.000000 286.000000&command=tracker->command setSection=40000"
             startRelTS: "0"
             runPeriod: 23
             duration: -1.
@@ -395,27 +395,6 @@ sections:
             category: Technical
             type: ValidationElement
          -
-            modelSectionId: 40000
-            counterSectionId: -1
-            weightMapPath: "0040/00040000/discrMask.png"
-            center:
-               values: [ 708., 266. ]
-               type: Vector2
-            errorThreshold: 5.0000000000000003e-002
-            correctThreshold: 0.
-            wrongThreshold: 1.
-            lostCommand: "tracker->command addToSectionMemory=validationFailed"
-            failCommand: "tracker->command addToSectionMemory=validationFailed"
-            annotationId: 7002003
-            sectionId: 7002
-            layer: -1
-            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=708.000000 286.000000&command=tracker->command setSection=40000"
-            startRelTS: "0"
-            runPeriod: 23
-            duration: -1.
-            category: Technical
-            type: ValidationElement
-         -
             modelSectionId: 39000
             counterSectionId: -1
             weightMapPath: "0039/00039000/discrMask.png"
@@ -427,10 +406,31 @@ sections:
             wrongThreshold: 1.
             lostCommand: "tracker->command addToSectionMemory=validationFailed"
             failCommand: "tracker->command addToSectionMemory=validationFailed"
-            annotationId: 7002004
+            annotationId: 7002003
             sectionId: 7002
             layer: -1
             command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=926.000000 299.000000&command=tracker->command setSection=39000"
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Technical
+            type: ValidationElement
+         -
+            modelSectionId: 40000
+            counterSectionId: -1
+            weightMapPath: "0040/00040000/discrMask.png"
+            center:
+               values: [ 708., 266. ]
+               type: Vector2
+            errorThreshold: 5.0000000000000003e-002
+            correctThreshold: 0.
+            wrongThreshold: 1.
+            lostCommand: "tracker->command addToSectionMemory=validationFailed"
+            failCommand: "tracker->command addToSectionMemory=validationFailed"
+            annotationId: 7002004
+            sectionId: 7002
+            layer: -1
+            command: "renderer->command drawImageSequence&opacity=0.5&duration=0.1&fadeIn=0.5&fadeOut=0.5&trackingType=1&path=assets/misc/edit_validation.png&target=708.000000 286.000000&command=tracker->command setSection=40000"
             startRelTS: "0"
             runPeriod: 23
             duration: -1.

@@ -1,0 +1,537 @@
+%YAML:1.0
+---
+versionCode: 1710118
+timestamp: "131599693437740000"
+workspaceId: Companion/Akku2short
+workflows:
+   -
+      id: 0
+      chapters: []
+chapters:
+   -
+      chapterId: 0
+      title: ""
+      description: Root
+      fields:
+         {}
+      chapterType: 0
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 0
+            sectionType: -1000
+            channelId: ""
+            distance: 1.
+            startFrame: 0
+            stopFrame: 0
+            focusFrame: -1
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: ""
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:1, label:"", condition:"" } ]
+   -
+      chapterId: 1
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 1000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110139
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 1001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 153
+            focusFrame: 81
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110139
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 1002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 154
+            stopFrame: 163
+            focusFrame: 154
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110139
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:2, label:"", condition:"" } ]
+   -
+      chapterId: 2
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 2000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110158
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 2001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 122
+            focusFrame: 66
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110158
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 2002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 123
+            stopFrame: 132
+            focusFrame: 123
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110158
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:3, label:"", condition:"" } ]
+   -
+      chapterId: 3
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 3000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110207
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 3001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 166
+            focusFrame: 88
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110207
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 3002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 167
+            stopFrame: 176
+            focusFrame: 167
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110207
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:4, label:"", condition:"" } ]
+   -
+      chapterId: 4
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 4000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110217
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 4001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 191
+            focusFrame: 100
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110217
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 4002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 192
+            stopFrame: 201
+            focusFrame: 192
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110217
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: []
+transitions:
+   - { from:0, to:1, label:"", condition:"" }
+   - { from:1, to:2, label:"", condition:"" }
+   - { from:2, to:3, label:"", condition:"" }
+   - { from:3, to:4, label:"", condition:"" }
+associations:
+   []

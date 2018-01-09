@@ -1,0 +1,43 @@
+%YAML:1.0
+---
+versionCode: 1710118
+timestamp: "131599718964730000"
+workflows:
+   -
+      id: 0
+      chapters: []
+chapters: [ 0, 1, 2, 3, 19, 5, 6, 7, 8, 9, 10, 11, 18, 13, 14, 15, 16,
+    17 ]
+transitions:
+   - { from:0, to:1, label:"", condition:"" }
+   - { from:1, to:2, label:"", condition:"" }
+   - { from:2, to:3, label:"", condition:"" }
+   - { from:3, to:5, label:"", condition:"" }
+   - { from:5, to:6, label:"", condition:"" }
+   - { from:6, to:7, label:"", condition:"" }
+   - { from:7, to:8, label:"", condition:"" }
+   - { from:8, to:9, label:"", condition:"" }
+   - { from:9, to:10, label:"", condition:"" }
+   - { from:10, to:11, label:"", condition:"" }
+   - { from:11, to:13, label:"", condition:"" }
+   - { from:13, to:14, label:"", condition:"" }
+   - { from:14, to:15, label:"", condition:"" }
+   - { from:15, to:16, label:"", condition:"" }
+   - { from:16, to:17, label:"", condition:"" }
+   - { from:17, to:18, label:"", condition:"" }
+   - { from:18, to:19, label:"", condition:"" }
+associations:
+   - { first:1, second:1, label:validate }
+   - { first:2, second:2, label:validate }
+   - { first:3, second:3, label:validate }
+   - { first:5, second:5, label:validate }
+   - { first:6, second:6, label:validate }
+   - { first:7, second:7, label:validate }
+   - { first:9, second:9, label:validate }
+   - { first:10, second:10, label:validate }
+   - { first:11, second:11, label:validate }
+   - { first:14, second:14, label:validate }
+   - { first:15, second:15, label:validate }
+   - { first:16, second:16, label:validate }
+   - { first:18, second:18, label:validate }
+   - { first:19, second:19, label:validate }

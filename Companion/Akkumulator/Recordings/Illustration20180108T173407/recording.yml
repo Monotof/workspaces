@@ -1,0 +1,25 @@
+%YAML:1.0
+---
+recording:
+   type: VideoRecording
+   recordId: Illustration20180108T173407
+   channelId: main
+   timeStamp: "131599064478380000"
+   sessionTimestamp: "0"
+   width: -1
+   height: -1
+   frameCount: 18
+   fps: 2.9969999999999999e+001
+   recordingType: 4000
+   frameTransformRect: [ [ -1, -1 ], [ -1, -1 ], [ -1, -1 ], [ -1, -1 ] ]
+   trackingMode: 1
+   segments:
+      - { startFrame:0, stopFrame:11, segmentType:1000, focusFrame:-1,
+          focusPoint:{ values:[ -1., -1. ], type:Vector2 }, isFragment:0 }
+   framesRelTs: [ "0", "5970000", "16020000", "25960000", "36070000",
+       "46000000", "56050000", "66060000", "76110000", "86010000",
+       "96010000", "106070000", "116050000", "126110000", "136070000",
+       "146060000", "156060000", "166140000" ]
+   chunks:
+      - { path:"Recordings/Illustration20180108T173407/recording.avi",
+          startFrameIdx:0 }

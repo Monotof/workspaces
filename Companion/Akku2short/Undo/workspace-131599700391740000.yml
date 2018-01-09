@@ -1,0 +1,3606 @@
+%YAML:1.0
+---
+versionCode: 1710118
+timestamp: "131599699141210000"
+workspaceId: Companion/Akku2short
+workflows:
+   -
+      id: 0
+      chapters: []
+chapters:
+   -
+      chapterId: 0
+      title: ""
+      description: Root
+      fields:
+         {}
+      chapterType: 0
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 0
+            sectionType: -1000
+            channelId: ""
+            distance: 1.
+            startFrame: 0
+            stopFrame: 0
+            focusFrame: -1
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: ""
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:1, label:"", condition:"" } ]
+   -
+      chapterId: 1
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 1000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 0
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110828
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1.0001267289188926e+000,
+                   7.8577455610087871e-004, 4.0671629786196423e-001,
+                   -7.8577455610087871e-004, 1.0001267289188926e+000,
+                   7.5392370275578913e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 1000000
+                  sectionId: 1000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0001/00001000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 1000001
+                  sectionId: 1000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00001000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 6.3950000000000000e+002, 0. ]
+                  target: [ 6.3950000000000000e+002, 719. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 1000002
+                  sectionId: 1000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0001/00001000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      5.0034773349761963e-001 ]
+         -
+            sectionId: 1001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 154
+            focusFrame: 82
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110828
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1.0001267289188926e+000,
+                   7.8577455610087871e-004, 4.0671629786196423e-001,
+                   -7.8577455610087871e-004, 1.0001267289188926e+000,
+                   7.5392370275578913e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 1002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 155
+            stopFrame: 164
+            focusFrame: 155
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110828
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1.0001267289188926e+000,
+                   7.8577455610087871e-004, 4.0671629786196423e-001,
+                   -7.8577455610087871e-004, 1.0001267289188926e+000,
+                   7.5392370275578913e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 1002000
+                  sectionId: 1002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0001/00001002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 1002001
+                  sectionId: 1002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00001000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:2, label:"", condition:"" } ]
+   -
+      chapterId: 2
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 2000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110839
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9747167177156870e-001,
+                   -8.6322641321078929e-003, 3.4461483021789583e+000,
+                   8.6322641321078929e-003, 9.9747167177156870e-001,
+                   -9.0427911309127360e+000, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 2000000
+                  sectionId: 2000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0002/00002000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 2000001
+                  sectionId: 2000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00002000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 6.3950000000000000e+002, 0. ]
+                  target: [ 6.3950000000000000e+002, 719. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 2000002
+                  sectionId: 2000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0002/00002000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      5.0034773349761963e-001 ]
+         -
+            sectionId: 2001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 114
+            focusFrame: 62
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110839
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9747167177156870e-001,
+                   -8.6322641321078929e-003, 3.4461483021789583e+000,
+                   8.6322641321078929e-003, 9.9747167177156870e-001,
+                   -9.0427911309127360e+000, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 2002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 115
+            stopFrame: 124
+            focusFrame: 115
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110839
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9747167177156870e-001,
+                   -8.6322641321078929e-003, 3.4461483021789583e+000,
+                   8.6322641321078929e-003, 9.9747167177156870e-001,
+                   -9.0427911309127360e+000, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 2002000
+                  sectionId: 2002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0002/00002002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 2002001
+                  sectionId: 2002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00002000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:3, label:"", condition:"" } ]
+   -
+      chapterId: 3
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 3000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110846
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9956352367047863e-001,
+                   -6.7395414618736413e-005, 1.6999490871684730e-001,
+                   6.7395414618736413e-005, 9.9956352367047863e-001,
+                   2.9981026783371171e-002, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 3000000
+                  sectionId: 3000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0003/00003000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 3000001
+                  sectionId: 3000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00003000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 6.3950000000000000e+002, 0. ]
+                  target: [ 6.3950000000000000e+002, 719. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 3000002
+                  sectionId: 3000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0003/00003000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      5.0034773349761963e-001 ]
+         -
+            sectionId: 3001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 98
+            focusFrame: 54
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110846
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9956352367047863e-001,
+                   -6.7395414618736413e-005, 1.6999490871684730e-001,
+                   6.7395414618736413e-005, 9.9956352367047863e-001,
+                   2.9981026783371171e-002, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 3002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 99
+            stopFrame: 108
+            focusFrame: 99
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110846
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9956352367047863e-001,
+                   -6.7395414618736413e-005, 1.6999490871684730e-001,
+                   6.7395414618736413e-005, 9.9956352367047863e-001,
+                   2.9981026783371171e-002, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 3002000
+                  sectionId: 3002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0003/00003002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 3002001
+                  sectionId: 3002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00003000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:4, label:"", condition:"" }, {
+          chapterId:5, label:"", condition:"" } ]
+   -
+      chapterId: 5
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 5000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 7
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110912
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9995512477757298e-001,
+                   7.7851666568667217e-005, -3.9862502573048981e-003,
+                   -7.7851666568667217e-005, 9.9995512477757298e-001,
+                   1.0218031144294397e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 5000000
+                  sectionId: 5000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0005/00005000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 5000001
+                  sectionId: 5000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00005000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 6.3950000000000000e+002, 0. ]
+                  target: [ 6.3950000000000000e+002, 719. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 5000002
+                  sectionId: 5000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0005/00005000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      5.0034773349761963e-001 ]
+         -
+            sectionId: 5001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 128
+            focusFrame: 69
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110912
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9995512477757298e-001,
+                   7.7851666568667217e-005, -3.9862502573048981e-003,
+                   -7.7851666568667217e-005, 9.9995512477757298e-001,
+                   1.0218031144294397e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 5002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 129
+            stopFrame: 138
+            focusFrame: 129
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110912
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9995512477757298e-001,
+                   7.7851666568667217e-005, -3.9862502573048981e-003,
+                   -7.7851666568667217e-005, 9.9995512477757298e-001,
+                   1.0218031144294397e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 5002000
+                  sectionId: 5002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0005/00005002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 5002001
+                  sectionId: 5002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00005000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:6, label:"", condition:"" } ]
+   -
+      chapterId: 6
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 6000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 0
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110922
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9899709414071469e-001,
+                   -2.6747289186630943e-003, 1.0313879307471545e+000,
+                   2.6747289186630943e-003, 9.9899709414071469e-001,
+                   -7.7558088836090910e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 6000000
+                  sectionId: 6000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0006/00006000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 6000001
+                  sectionId: 6000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00006000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 6.3950000000000000e+002, 0. ]
+                  target: [ 6.3950000000000000e+002, 719. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 6000002
+                  sectionId: 6000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0006/00006000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      5.0034773349761963e-001 ]
+         -
+            sectionId: 6001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 194
+            focusFrame: 102
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110922
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9899709414071469e-001,
+                   -2.6747289186630943e-003, 1.0313879307471545e+000,
+                   2.6747289186630943e-003, 9.9899709414071469e-001,
+                   -7.7558088836090910e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 6002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 195
+            stopFrame: 204
+            focusFrame: 195
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110922
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9899709414071469e-001,
+                   -2.6747289186630943e-003, 1.0313879307471545e+000,
+                   2.6747289186630943e-003, 9.9899709414071469e-001,
+                   -7.7558088836090910e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 6002000
+                  sectionId: 6002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0006/00006002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 6002001
+                  sectionId: 6002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00006000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:7, label:"", condition:"" } ]
+   -
+      chapterId: 7
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 7000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 0
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110932
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9948427347200242e-001,
+                   -2.0394578324616506e-003, 5.5351180281328051e-002,
+                   2.0394578324616506e-003, 9.9948427347200242e-001,
+                   -1.3139188099968420e+000, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 7000000
+                  sectionId: 7000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0007/00007000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 7000001
+                  sectionId: 7000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00007000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 6.3950000000000000e+002, 0. ]
+                  target: [ 6.3950000000000000e+002, 719. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 7000002
+                  sectionId: 7000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0007/00007000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      5.0034773349761963e-001 ]
+         -
+            sectionId: 7001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 205
+            focusFrame: 107
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110932
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9948427347200242e-001,
+                   -2.0394578324616506e-003, 5.5351180281328051e-002,
+                   2.0394578324616506e-003, 9.9948427347200242e-001,
+                   -1.3139188099968420e+000, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 7002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 206
+            stopFrame: 215
+            focusFrame: 206
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110932
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9948427347200242e-001,
+                   -2.0394578324616506e-003, 5.5351180281328051e-002,
+                   2.0394578324616506e-003, 9.9948427347200242e-001,
+                   -1.3139188099968420e+000, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 7002000
+                  sectionId: 7002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0007/00007002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 7002001
+                  sectionId: 7002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00007000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:8, label:"", condition:"" } ]
+   -
+      chapterId: 8
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 8000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 0
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110943
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9914118256571438e-001,
+                   2.6674255453145026e-004, 6.7286771877717533e-002,
+                   -2.6674255453145026e-004, 9.9914118256571438e-001,
+                   -3.9787045616605801e-002, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 8000000
+                  sectionId: 8000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0008/00008000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 8000001
+                  sectionId: 8000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00008000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 6.3950000000000000e+002, 0. ]
+                  target: [ 6.3950000000000000e+002, 719. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 8000002
+                  sectionId: 8000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0008/00008000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      5.0034773349761963e-001 ]
+         -
+            sectionId: 8001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 114
+            focusFrame: 62
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110943
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9914118256571438e-001,
+                   2.6674255453145026e-004, 6.7286771877717533e-002,
+                   -2.6674255453145026e-004, 9.9914118256571438e-001,
+                   -3.9787045616605801e-002, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 8002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 115
+            stopFrame: 124
+            focusFrame: 115
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110943
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9914118256571438e-001,
+                   2.6674255453145026e-004, 6.7286771877717533e-002,
+                   -2.6674255453145026e-004, 9.9914118256571438e-001,
+                   -3.9787045616605801e-002, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 8002000
+                  sectionId: 8002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0008/00008002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 8002001
+                  sectionId: 8002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00008000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:9, label:"", condition:"" } ]
+   -
+      chapterId: 9
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 9000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 1
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110955
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9673217805664183e-001,
+                   2.7978693697807604e-004, 1.3911758074997445e+000,
+                   -2.7978693697807604e-004, 9.9673217805664183e-001,
+                   -3.0697307896556320e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 9000000
+                  sectionId: 9000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0009/00009000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 9000001
+                  sectionId: 9000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00009000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 6.3950000000000000e+002, 0. ]
+                  target: [ 6.3950000000000000e+002, 719. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 9000002
+                  sectionId: 9000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0009/00009000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      5.0034773349761963e-001 ]
+         -
+            sectionId: 9001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 103
+            focusFrame: 56
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T110955
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9673217805664183e-001,
+                   2.7978693697807604e-004, 1.3911758074997445e+000,
+                   -2.7978693697807604e-004, 9.9673217805664183e-001,
+                   -3.0697307896556320e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 9002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 104
+            stopFrame: 113
+            focusFrame: 104
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 2
+               cols: 2
+               values: [ 0., 0., 0., 0. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T110955
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 9.9673217805664183e-001,
+                   2.7978693697807604e-004, 1.3911758074997445e+000,
+                   -2.7978693697807604e-004, 9.9673217805664183e-001,
+                   -3.0697307896556320e-001, 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 9002000
+                  sectionId: 9002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0009/00009002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 9002001
+                  sectionId: 9002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00009000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:10, label:"", condition:"" } ]
+   -
+      chapterId: 10
+      title: ""
+      description: ""
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 10000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 1
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111004
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 10001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 218
+            focusFrame: 114
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111004
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 10002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 219
+            stopFrame: 228
+            focusFrame: 219
+            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111004
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:11, label:"", condition:"" } ]
+   -
+      chapterId: 11
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 11000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111018
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 11001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 160
+            focusFrame: 85
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111018
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 11002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 161
+            stopFrame: 170
+            focusFrame: 161
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111018
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:12, label:"", condition:"" }, {
+          chapterId:13, label:"", condition:"" } ]
+   -
+      chapterId: 13
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 13000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ 1.2646667480000001e+003,
+                4.5533334400000001e+002 ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111043
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 13001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 166
+            focusFrame: 88
+            focusPoint: { values:[ 1.2646667480000001e+003,
+                4.5533334400000001e+002 ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111043
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 13002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 167
+            stopFrame: 176
+            focusFrame: 167
+            focusPoint: { values:[ 1.2646667480000001e+003,
+                4.5533334400000001e+002 ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111043
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:14, label:"", condition:"" } ]
+   -
+      chapterId: 14
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 14000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111055
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 14001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 116
+            focusFrame: 63
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111055
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 14002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 117
+            stopFrame: 126
+            focusFrame: 117
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111055
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:15, label:"", condition:"" } ]
+   -
+      chapterId: 15
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 15000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111105
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 15001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 143
+            focusFrame: 76
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111105
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 15002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 144
+            stopFrame: 153
+            focusFrame: 144
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111105
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:16, label:"", condition:"" } ]
+   -
+      chapterId: 16
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 16000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111115
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 16001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 172
+            focusFrame: 91
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111115
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 16002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 173
+            stopFrame: 182
+            focusFrame: 173
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111115
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:17, label:"", condition:"" } ]
+   -
+      chapterId: 17
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 17000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111126
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 17001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 125
+            focusFrame: 67
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111126
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 17002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 126
+            stopFrame: 135
+            focusFrame: 126
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111126
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:18, label:"", condition:"" } ]
+   -
+      chapterId: 18
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 18000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111133
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 18001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 129
+            focusFrame: 69
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111133
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 18002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 130
+            stopFrame: 139
+            focusFrame: 130
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111133
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: [ { chapterId:19, label:"", condition:"" } ]
+   -
+      chapterId: 19
+      title: ""
+      description: ""
+      chapterType: 2000
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 0
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 1
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 19000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111147
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 19001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 177
+            focusFrame: 93
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T111147
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+         -
+            sectionId: 19002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 178
+            stopFrame: 187
+            focusFrame: 178
+            focusPoint: { values:[ -1., -1. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T111147
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               []
+      transitions: []
+transitions:
+   - { from:0, to:1, label:"", condition:"" }
+   - { from:1, to:2, label:"", condition:"" }
+   - { from:2, to:3, label:"", condition:"" }
+   - { from:3, to:4, label:"", condition:"" }
+   - { from:3, to:5, label:"", condition:"" }
+   - { from:5, to:6, label:"", condition:"" }
+   - { from:6, to:7, label:"", condition:"" }
+   - { from:7, to:8, label:"", condition:"" }
+   - { from:8, to:9, label:"", condition:"" }
+   - { from:9, to:10, label:"", condition:"" }
+   - { from:10, to:11, label:"", condition:"" }
+   - { from:11, to:12, label:"", condition:"" }
+   - { from:11, to:13, label:"", condition:"" }
+   - { from:13, to:14, label:"", condition:"" }
+   - { from:14, to:15, label:"", condition:"" }
+   - { from:15, to:16, label:"", condition:"" }
+   - { from:16, to:17, label:"", condition:"" }
+   - { from:17, to:18, label:"", condition:"" }
+   - { from:18, to:19, label:"", condition:"" }
+associations:
+   - { first:1, second:1, label:validate, params:"" }
+   - { first:5, second:5, label:validate, params:"" }
+   - { first:6, second:6, label:validate, params:"" }
+   - { first:7, second:7, label:validate, params:"" }
+   - { first:8, second:8, label:validate, params:"" }
+   - { first:9, second:9, label:validate, params:"" }

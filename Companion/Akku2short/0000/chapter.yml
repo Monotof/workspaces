@@ -1,0 +1,42 @@
+%YAML:1.0
+---
+chapterId: 0
+title: ""
+description: Root
+fields:
+   {}
+chapterType: 0
+options:
+   locationAnnotation: 1
+sections:
+   -
+      sectionId: 0
+      sectionType: -1000
+      channelId: ""
+      distance: 1.
+      startFrame: 0
+      stopFrame: 0
+      focusFrame: -1
+      focusPoint: { values:[ -1., -1. ], type:Vector2 }
+      focusPose:
+         rows: 4
+         cols: 4
+         values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.,
+             0., 0., 1. ]
+         type: Matrix
+      focusROI:
+         type: "Vector2[][]"
+         values:
+            []
+      minDurationRelTS: "0"
+      animationPeriod: "0"
+      recordId: ""
+      homography:
+         rows: 3
+         cols: 3
+         values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+         type: Matrix
+      similarities:
+         []
+      annotations:
+         []

@@ -1,0 +1,9 @@
+setupStation
+setupEntryBottom
+
+set templateSizeRadius=110
+set proceduralPruningSensitivity=0.99
+
+// Core
+set createDebugModules=0
+set showInfo=0

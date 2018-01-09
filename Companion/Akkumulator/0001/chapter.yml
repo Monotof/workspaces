@@ -1,0 +1,71 @@
+%YAML:1.0
+---
+chapterId: 1
+deleted: 1
+title: ""
+description: ""
+chapterType: 4000
+options:
+   locationAnnotation: 1
+sections:
+   -
+      sectionId: 1000
+      sectionType: 4000
+      channelId: main
+      distance: 1.
+      startFrame: 0
+      stopFrame: 17
+      focusFrame: 0
+      focusPoint: { values:[ 1.0673333740000000e+003,
+          3.8466668700000002e+002 ], type:Vector2 }
+      focusPose:
+         rows: 4
+         cols: 4
+         values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0., 0.,
+             0., 0., 1. ]
+         type: Matrix
+      focusROI:
+         type: "Vector2[][]"
+         values:
+            -
+               type: "Vector2[]"
+               values:
+                  -
+                     values: [ 0., 0. ]
+                     type: Vector2
+                  -
+                     values: [ 1280., 0. ]
+                     type: Vector2
+                  -
+                     values: [ 1280., 720. ]
+                     type: Vector2
+                  -
+                     values: [ 0., 720. ]
+                     type: Vector2
+      minDurationRelTS: "0"
+      animationPeriod: "0"
+      recordId: Illustration20180108T173407
+      homography:
+         rows: 3
+         cols: 3
+         values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+         type: Matrix
+      similarities:
+         []
+      annotations:
+         -
+            annotationId: 1000000
+            sectionId: 1000
+            layer: 3
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: InstructionVideo
+            type: FileAnnotation
+            path: "assets/InstructionVideos/00001000.mp4"
+            title: Instruction Video
+            printFlag: 0
+            page: 1
+            thumbnail: ""
+            runDirectly: 0
