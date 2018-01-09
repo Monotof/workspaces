@@ -3,10 +3,9 @@
 chapterId: 1
 title: Platte platzieren
 description: ""
-fields:
-   {}
 chapterType: 2001
 options:
+   automaticFocusRoiRadius: 0
    locationAnnotation: 1
    customActionView: 1
    customValidationView: 1

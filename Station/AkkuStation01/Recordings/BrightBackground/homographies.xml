@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Argos version="1.1">
+	<list id="homographies">
+		<Matrix>
+			<matrix id="data" rows="3" cols="3">
+1 0 0 
+0 1 0 
+0 0 1 
+</matrix>
+		</Matrix>
+	</list>
+</Argos>

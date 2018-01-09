@@ -1,0 +1,3830 @@
+%YAML:1.0
+---
+values:
+   -
+      timestamp: 132
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "0"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 145
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "1"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 153
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "2"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 170
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "3"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 183
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "4"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 189
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "5"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 202
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "6"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 215
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "7"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 226
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "8"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 240
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "9"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 245
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "10"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 264
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "11"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 274
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "12"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 288
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "13"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 301
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "14"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 314
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "15"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 331
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "16"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 337
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "17"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 352
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "18"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 364
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "19"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 383
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "20"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 389
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "21"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 404
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "22"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 420
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "23"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 433
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "24"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 444
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "25"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 465
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "26"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 474
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "27"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 494
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "28"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 509
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "29"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 522
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "30"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 540
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "31"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 547
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "32"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 563
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "33"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 580
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "34"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 595
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "35"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 609
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "36"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 625
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "37"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 640
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "38"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 649
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "39"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 669
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "40"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 675
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "41"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 696
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 176., 408. ]
+               type: Vector2
+      frameIdx:
+         value: "42"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 709
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 149., 593. ]
+               type: Vector2
+            -
+               values: [ 174., 411. ]
+               type: Vector2
+      frameIdx:
+         value: "43"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "48", "50" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 724
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 150., 590. ]
+               type: Vector2
+            -
+               values: [ 166., 419. ]
+               type: Vector2
+      frameIdx:
+         value: "44"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "49", "45" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 736
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "45"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 749
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 314., 687. ]
+               type: Vector2
+            -
+               values: [ 764., 521. ]
+               type: Vector2
+      frameIdx:
+         value: "46"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "61", "54" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 768
+      center:
+         values: [ 3.1550000000000001e+001, 8.1688891601562503e+001 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 320., 679. ]
+               type: Vector2
+            -
+               values: [ 768., 517. ]
+               type: Vector2
+      frameIdx:
+         value: "47"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "65", "53" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 779
+      center:
+         values: [ 6.3780241394042967e+001, 1.8212105102539061e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 582., 681. ]
+               type: Vector2
+            -
+               values: [ 324., 671. ]
+               type: Vector2
+            -
+               values: [ 779., 511. ]
+               type: Vector2
+      frameIdx:
+         value: "48"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "41", "66", "53" ]
+      size:
+         value: "440.352"
+         type: Double
+   -
+      timestamp: 791
+      center:
+         values: [ 9.8980241394042963e+001, 2.8297105102539064e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 582., 675. ]
+               type: Vector2
+            -
+               values: [ 329., 666. ]
+               type: Vector2
+            -
+               values: [ 782., 509. ]
+               type: Vector2
+      frameIdx:
+         value: "49"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "41", "68", "53" ]
+      size:
+         value: "922.648"
+         type: Double
+   -
+      timestamp: 812
+      center:
+         values: [ 2.0678563690185547e+002, 4.0253708496093748e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 586., 669. ]
+               type: Vector2
+            -
+               values: [ 331., 660. ]
+               type: Vector2
+            -
+               values: [ 791., 504. ]
+               type: Vector2
+      frameIdx:
+         value: "50"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "41", "68", "53" ]
+      size:
+         value: "1418.8"
+         type: Double
+   -
+      timestamp: 825
+      center:
+         values: [ 3.1562962493896487e+002, 5.2334248046874995e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 590., 664. ]
+               type: Vector2
+            -
+               values: [ 332., 650. ]
+               type: Vector2
+            -
+               values: [ 795., 505. ]
+               type: Vector2
+      frameIdx:
+         value: "51"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "41", "66", "52" ]
+      size:
+         value: "2002.89"
+         type: Double
+   -
+      timestamp: 834
+      center:
+         values: [ 3.9640204925537108e+002, 5.6245898437500000e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 592., 659. ]
+               type: Vector2
+            -
+               values: [ 334., 643. ]
+               type: Vector2
+            -
+               values: [ 801., 505. ]
+               type: Vector2
+      frameIdx:
+         value: "52"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "42", "66", "52" ]
+      size:
+         value: "2591.72"
+         type: Double
+   -
+      timestamp: 849
+      center:
+         values: [ 4.7701501261393230e+002, 5.8283222045898435e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 594., 656. ]
+               type: Vector2
+            -
+               values: [ 336., 636. ]
+               type: Vector2
+            -
+               values: [ 804., 505. ]
+               type: Vector2
+      frameIdx:
+         value: "53"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "42", "65", "52" ]
+      size:
+         value: "2740.2"
+         type: Double
+   -
+      timestamp: 865
+      center:
+         values: [ 5.5562453409830732e+002, 6.0278761596679692e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 590., 652. ]
+               type: Vector2
+            -
+               values: [ 335., 632. ]
+               type: Vector2
+            -
+               values: [ 802., 504. ]
+               type: Vector2
+      frameIdx:
+         value: "54"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "43", "65", "51" ]
+      size:
+         value: "2846.73"
+         type: Double
+   -
+      timestamp: 879
+      center:
+         values: [ 5.6222116088867187e+002, 6.0402697753906250e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 586., 650. ]
+               type: Vector2
+            -
+               values: [ 330., 628. ]
+               type: Vector2
+            -
+               values: [ 801., 504. ]
+               type: Vector2
+      frameIdx:
+         value: "55"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "44", "63", "52" ]
+      size:
+         value: "2939.41"
+         type: Double
+   -
+      timestamp: 894
+      center:
+         values: [ 5.6777919514973951e+002, 6.0362100016276042e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 584., 648. ]
+               type: Vector2
+            -
+               values: [ 325., 622. ]
+               type: Vector2
+            -
+               values: [ 799., 506. ]
+               type: Vector2
+      frameIdx:
+         value: "56"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "43", "62", "52" ]
+      size:
+         value: "2944.16"
+         type: Double
+   -
+      timestamp: 906
+      center:
+         values: [ 5.6985879313151031e+002, 6.0321502278645835e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 582., 642. ]
+               type: Vector2
+            -
+               values: [ 322., 617. ]
+               type: Vector2
+            -
+               values: [ 800., 504. ]
+               type: Vector2
+      frameIdx:
+         value: "57"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "44", "63", "51" ]
+      size:
+         value: "2944.16"
+         type: Double
+   -
+      timestamp: 924
+      center:
+         values: [ 5.7141761067708319e+002, 6.0219075520833337e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 580., 639. ]
+               type: Vector2
+            -
+               values: [ 320., 612. ]
+               type: Vector2
+            -
+               values: [ 798., 506. ]
+               type: Vector2
+      frameIdx:
+         value: "58"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45", "62", "51" ]
+      size:
+         value: "2940.52"
+         type: Double
+   -
+      timestamp: 941
+      center:
+         values: [ 5.7201011149088538e+002, 6.0055758666992199e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 577., 635. ]
+               type: Vector2
+            -
+               values: [ 315., 607. ]
+               type: Vector2
+            -
+               values: [ 816., 513. ]
+               type: Vector2
+      frameIdx:
+         value: "59"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "47", "61", "36" ]
+      size:
+         value: "2935.78"
+         type: Double
+   -
+      timestamp: 948
+      center:
+         values: [ 5.7201011149088538e+002, 5.9853317464192708e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 575., 628. ]
+               type: Vector2
+            -
+               values: [ 311., 602. ]
+               type: Vector2
+            -
+               values: [ 820., 521. ]
+               type: Vector2
+      frameIdx:
+         value: "60"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "48", "63", "29" ]
+      size:
+         value: "2923.53"
+         type: Double
+   -
+      timestamp: 968
+      center:
+         values: [ 5.7144083658854163e+002, 5.9691473999023435e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 574., 623. ]
+               type: Vector2
+            -
+               values: [ 308., 590. ]
+               type: Vector2
+      frameIdx:
+         value: "61"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "48", "60" ]
+      size:
+         value: "2911.28"
+         type: Double
+   -
+      timestamp: 988
+      center:
+         values: [ 5.7087139485677085e+002, 5.9529630533854163e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 568., 617. ]
+               type: Vector2
+            -
+               values: [ 308., 582. ]
+               type: Vector2
+      frameIdx:
+         value: "62"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "48", "59" ]
+      size:
+         value: "2896.78"
+         type: Double
+   -
+      timestamp: 997
+      center:
+         values: [ 5.7020330403645835e+002, 5.9406517740885408e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 570., 610. ]
+               type: Vector2
+            -
+               values: [ 306., 576. ]
+               type: Vector2
+      frameIdx:
+         value: "63"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "59" ]
+      size:
+         value: "2885.91"
+         type: Double
+   -
+      timestamp: 1012
+      center:
+         values: [ 5.6942050984700518e+002, 5.9322000528971353e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 566., 606. ]
+               type: Vector2
+            -
+               values: [ 304., 571. ]
+               type: Vector2
+      frameIdx:
+         value: "64"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "60" ]
+      size:
+         value: "2876.15"
+         type: Double
+   -
+      timestamp: 1026
+      center:
+         values: [ 5.6821168009440100e+002, 5.9209041951497397e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 555., 600. ]
+               type: Vector2
+            -
+               values: [ 301., 567. ]
+               type: Vector2
+      frameIdx:
+         value: "65"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "60" ]
+      size:
+         value: "2873.9"
+         type: Double
+   -
+      timestamp: 1047
+      center:
+         values: [ 5.6428747355143219e+002, 5.9084477742513013e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 555., 594. ]
+               type: Vector2
+            -
+               values: [ 298., 564. ]
+               type: Vector2
+            -
+               values: [ 796., 491. ]
+               type: Vector2
+      frameIdx:
+         value: "66"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "60", "50" ]
+      size:
+         value: "2871.64"
+         type: Double
+   -
+      timestamp: 1053
+      center:
+         values: [ 5.3864075113932290e+002, 5.8917713826497391e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 557., 584. ]
+               type: Vector2
+            -
+               values: [ 295., 557. ]
+               type: Vector2
+      frameIdx:
+         value: "67"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "49", "57" ]
+      size:
+         value: "2871.64"
+         type: Double
+   -
+      timestamp: 1071
+      center:
+         values: [ 5.1254517415364580e+002, 5.8759693806966141e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 554., 579. ]
+               type: Vector2
+            -
+               values: [ 292., 555. ]
+               type: Vector2
+      frameIdx:
+         value: "68"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "58" ]
+      size:
+         value: "2876.04"
+         type: Double
+   -
+      timestamp: 1083
+      center:
+         values: [ 4.8656430053710938e+002, 5.8595943400065096e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 554., 569. ]
+               type: Vector2
+            -
+               values: [ 288., 546. ]
+               type: Vector2
+            -
+               values: [ 801., 472. ]
+               type: Vector2
+      frameIdx:
+         value: "69"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "55", "46" ]
+      size:
+         value: "2880.44"
+         type: Double
+   -
+      timestamp: 1100
+      center:
+         values: [ 4.6100946248372395e+002, 5.8492632853190094e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 559., 558. ]
+               type: Vector2
+            -
+               values: [ 286., 542. ]
+               type: Vector2
+            -
+               values: [ 801., 471. ]
+               type: Vector2
+      frameIdx:
+         value: "70"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53", "56", "47" ]
+      size:
+         value: "2884.84"
+         type: Double
+   -
+      timestamp: 1108
+      center:
+         values: [ 4.3873927612304686e+002, 5.8152460530598955e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 557., 545. ]
+               type: Vector2
+            -
+               values: [ 285., 533. ]
+               type: Vector2
+            -
+               values: [ 800., 471. ]
+               type: Vector2
+      frameIdx:
+         value: "71"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52", "56", "47" ]
+      size:
+         value: "2889.23"
+         type: Double
+   -
+      timestamp: 1126
+      center:
+         values: [ 4.5942144368489579e+002, 5.7777883300781252e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 549., 541. ]
+               type: Vector2
+            -
+               values: [ 285., 526. ]
+               type: Vector2
+            -
+               values: [ 800., 461. ]
+               type: Vector2
+      frameIdx:
+         value: "72"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53", "56", "40" ]
+      size:
+         value: "2893.63"
+         type: Double
+   -
+      timestamp: 1136
+      center:
+         values: [ 4.8065111490885408e+002, 5.7073296305338545e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 548., 533. ]
+               type: Vector2
+            -
+               values: [ 283., 518. ]
+               type: Vector2
+            -
+               values: [ 801., 460. ]
+               type: Vector2
+      frameIdx:
+         value: "73"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53", "54", "39" ]
+      size:
+         value: "2889.23"
+         type: Double
+   -
+      timestamp: 1156
+      center:
+         values: [ 5.0245408935546868e+002, 5.5979335937500002e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 547., 519. ]
+               type: Vector2
+            -
+               values: [ 800., 456. ]
+               type: Vector2
+      frameIdx:
+         value: "74"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "48", "37" ]
+      size:
+         value: "2878.47"
+         type: Double
+   -
+      timestamp: 1166
+      center:
+         values: [ 5.2425706380208328e+002, 5.4788130493164067e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 539., 520. ]
+               type: Vector2
+            -
+               values: [ 280., 510. ]
+               type: Vector2
+            -
+               values: [ 800., 456. ]
+               type: Vector2
+      frameIdx:
+         value: "75"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51", "58", "37" ]
+      size:
+         value: "2842.52"
+         type: Double
+   -
+      timestamp: 1185
+      center:
+         values: [ 5.4548673502604163e+002, 5.3695579223632808e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 552., 511. ]
+               type: Vector2
+            -
+               values: [ 280., 506. ]
+               type: Vector2
+            -
+               values: [ 800., 456. ]
+               type: Vector2
+      frameIdx:
+         value: "76"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52", "59", "37" ]
+      size:
+         value: "2800.03"
+         type: Double
+   -
+      timestamp: 1193
+      center:
+         values: [ 5.4548673502604163e+002, 5.2538312988281245e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 544., 515. ]
+               type: Vector2
+            -
+               values: [ 281., 501. ]
+               type: Vector2
+      frameIdx:
+         value: "77"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53", "60" ]
+      size:
+         value: "2757.55"
+         type: Double
+   -
+      timestamp: 1209
+      center:
+         values: [ 5.4548673502604163e+002, 5.1700920003255203e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 544., 514. ]
+               type: Vector2
+            -
+               values: [ 280., 499. ]
+               type: Vector2
+      frameIdx:
+         value: "78"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52", "58" ]
+      size:
+         value: "2719.46"
+         type: Double
+   -
+      timestamp: 1222
+      center:
+         values: [ 5.4487840169270828e+002, 5.1280925292968755e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 541., 522. ]
+               type: Vector2
+            -
+               values: [ 281., 499. ]
+               type: Vector2
+      frameIdx:
+         value: "79"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52", "58" ]
+      size:
+         value: "2687.74"
+         type: Double
+   -
+      timestamp: 1233
+      center:
+         values: [ 5.4414818522135420e+002, 5.0965301513671875e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 541., 523. ]
+               type: Vector2
+      frameIdx:
+         value: "80"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52" ]
+      size:
+         value: "2681.21"
+         type: Double
+   -
+      timestamp: 1250
+      center:
+         values: [ 5.4357848714192710e+002, 5.0799490966796873e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 557., 523. ]
+               type: Vector2
+            -
+               values: [ 284., 507. ]
+               type: Vector2
+      frameIdx:
+         value: "81"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51", "60" ]
+      size:
+         value: "2686.36"
+         type: Double
+   -
+      timestamp: 1263
+      center:
+         values: [ 5.4263940429687500e+002, 5.0775000000000000e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 560., 529. ]
+               type: Vector2
+            -
+               values: [ 282., 503. ]
+               type: Vector2
+      frameIdx:
+         value: "82"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53", "51" ]
+      size:
+         value: "2691.44"
+         type: Double
+   -
+      timestamp: 1277
+      center:
+         values: [ 5.1807137858072917e+002, 5.0821757812499999e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 555., 532. ]
+               type: Vector2
+            -
+               values: [ 289., 504. ]
+               type: Vector2
+      frameIdx:
+         value: "83"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51", "51" ]
+      size:
+         value: "2696.53"
+         type: Double
+   -
+      timestamp: 1295
+      center:
+         values: [ 4.9353838297526045e+002, 5.0961757812500002e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 566., 533. ]
+               type: Vector2
+            -
+               values: [ 293., 515. ]
+               type: Vector2
+      frameIdx:
+         value: "84"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51", "57" ]
+      size:
+         value: "2701.68"
+         type: Double
+   -
+      timestamp: 1307
+      center:
+         values: [ 4.6912727050781251e+002, 5.1125361328125001e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 559., 530. ]
+               type: Vector2
+            -
+               values: [ 294., 514. ]
+               type: Vector2
+      frameIdx:
+         value: "85"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52", "55" ]
+      size:
+         value: "2737.46"
+         type: Double
+   -
+      timestamp: 1321
+      center:
+         values: [ 4.4512894287109373e+002, 5.1288964843750000e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 567., 513. ]
+               type: Vector2
+            -
+               values: [ 297., 511. ]
+               type: Vector2
+      frameIdx:
+         value: "86"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "44", "57" ]
+      size:
+         value: "2768.1"
+         type: Double
+   -
+      timestamp: 1340
+      center:
+         values: [ 4.2244999999999999e+002, 5.1452568359375005e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 572., 513. ]
+               type: Vector2
+            -
+               values: [ 301., 502. ]
+               type: Vector2
+      frameIdx:
+         value: "87"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51", "59" ]
+      size:
+         value: "2812.05"
+         type: Double
+   -
+      timestamp: 1355
+      center:
+         values: [ 4.2394999999999999e+002, 5.1605810546875000e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 572., 553. ]
+               type: Vector2
+            -
+               values: [ 302., 492. ]
+               type: Vector2
+      frameIdx:
+         value: "88"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "47", "58" ]
+      size:
+         value: "2856"
+         type: Double
+   -
+      timestamp: 1365
+      center:
+         values: [ 4.2605891723632811e+002, 5.1665810546875002e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 570., 546. ]
+               type: Vector2
+            -
+               values: [ 297., 486. ]
+               type: Vector2
+      frameIdx:
+         value: "89"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45", "57" ]
+      size:
+         value: "2886.64"
+         type: Double
+   -
+      timestamp: 1378
+      center:
+         values: [ 4.2755891723632811e+002, 5.1667207031249995e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 563., 535. ]
+               type: Vector2
+            -
+               values: [ 292., 487. ]
+               type: Vector2
+      frameIdx:
+         value: "90"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "37", "57" ]
+      size:
+         value: "2867.44"
+         type: Double
+   -
+      timestamp: 1396
+      center:
+         values: [ 4.2966783447265624e+002, 5.1668603515625000e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 550., 505. ]
+               type: Vector2
+      frameIdx:
+         value: "91"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51" ]
+      size:
+         value: "2836.8"
+         type: Double
+   -
+      timestamp: 1405
+      center:
+         values: [ 4.3082675170898437e+002, 5.1670000000000005e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "92"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2792.85"
+         type: Double
+   -
+      timestamp: 1422
+      center:
+         values: [ 4.3172675170898435e+002, 5.1557978515624995e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 541., 499. ]
+               type: Vector2
+      frameIdx:
+         value: "93"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51" ]
+      size:
+         value: "2743.98"
+         type: Double
+   -
+      timestamp: 1434
+      center:
+         values: [ 4.3201783447265626e+002, 5.1422978515625005e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 528., 501. ]
+               type: Vector2
+            -
+               values: [ 279., 489. ]
+               type: Vector2
+      frameIdx:
+         value: "94"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "47", "52" ]
+      size:
+         value: "2696.45"
+         type: Double
+   -
+      timestamp: 1448
+      center:
+         values: [ 4.3291783447265624e+002, 5.1247978515625005e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 279., 487. ]
+               type: Vector2
+      frameIdx:
+         value: "95"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52" ]
+      size:
+         value: "2676.38"
+         type: Double
+   -
+      timestamp: 1468
+      center:
+         values: [ 4.3320891723632815e+002, 5.1017978515624998e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 278., 486. ]
+               type: Vector2
+      frameIdx:
+         value: "96"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "54" ]
+      size:
+         value: "2667.75"
+         type: Double
+   -
+      timestamp: 1476
+      center:
+         values: [ 4.3219999999999999e+002, 5.0683680419921876e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 533., 482. ]
+               type: Vector2
+            -
+               values: [ 278., 485. ]
+               type: Vector2
+      frameIdx:
+         value: "97"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51", "56" ]
+      size:
+         value: "2659.19"
+         type: Double
+   -
+      timestamp: 1496
+      center:
+         values: [ 4.2658147277832029e+002, 5.0334490356445315e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 276., 482. ]
+               type: Vector2
+      frameIdx:
+         value: "98"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53" ]
+      size:
+         value: "2659.19"
+         type: Double
+   -
+      timestamp: 1513
+      center:
+         values: [ 4.2057406311035157e+002, 4.9856864013671873e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 274., 479. ]
+               type: Vector2
+      frameIdx:
+         value: "99"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51" ]
+      size:
+         value: "2667.45"
+         type: Double
+   -
+      timestamp: 1522
+      center:
+         values: [ 4.1376635131835940e+002, 4.9421864013671876e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 526., 484. ]
+               type: Vector2
+            -
+               values: [ 272., 478. ]
+               type: Vector2
+      frameIdx:
+         value: "100"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53", "49" ]
+      size:
+         value: "2659.19"
+         type: Double
+   -
+      timestamp: 1537
+      center:
+         values: [ 4.0644842529296875e+002, 4.9009418945312501e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 521., 485. ]
+               type: Vector2
+            -
+               values: [ 273., 478. ]
+               type: Vector2
+      frameIdx:
+         value: "101"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52", "49" ]
+      size:
+         value: "2649.16"
+         type: Double
+   -
+      timestamp: 1548
+      center:
+         values: [ 4.0043049926757811e+002, 4.8701271972656252e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 269., 475. ]
+               type: Vector2
+      frameIdx:
+         value: "102"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "49" ]
+      size:
+         value: "2639.13"
+         type: Double
+   -
+      timestamp: 1560
+      center:
+         values: [ 3.7511496887207034e+002, 4.8485038452148439e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 274., 486. ]
+               type: Vector2
+      frameIdx:
+         value: "103"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53" ]
+      size:
+         value: "2625.46"
+         type: Double
+   -
+      timestamp: 1583
+      center:
+         values: [ 3.5018832092285157e+002, 4.8420219726562499e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 526., 540. ]
+               type: Vector2
+            -
+               values: [ 274., 480. ]
+               type: Vector2
+      frameIdx:
+         value: "104"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "42", "50" ]
+      size:
+         value: "2615.44"
+         type: Double
+   -
+      timestamp: 1592
+      center:
+         values: [ 3.2589603271484373e+002, 4.8384943847656251e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 274., 484. ]
+               type: Vector2
+      frameIdx:
+         value: "105"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "53" ]
+      size:
+         value: "2623.7"
+         type: Double
+   -
+      timestamp: 1609
+      center:
+         values: [ 3.0198340454101560e+002, 4.8382113037109377e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 277., 484. ]
+               type: Vector2
+      frameIdx:
+         value: "106"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51" ]
+      size:
+         value: "2633.72"
+         type: Double
+   -
+      timestamp: 1618
+      center:
+         values: [ 2.7785826416015624e+002, 4.8344124755859377e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 276., 482. ]
+               type: Vector2
+      frameIdx:
+         value: "107"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52" ]
+      size:
+         value: "2660.82"
+         type: Double
+   -
+      timestamp: 1642
+      center:
+         values: [ 2.7734925537109376e+002, 4.8306136474609377e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 276., 482. ]
+               type: Vector2
+      frameIdx:
+         value: "108"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52" ]
+      size:
+         value: "2668.93"
+         type: Double
+   -
+      timestamp: 1651
+      center:
+         values: [ 2.7684024658203123e+002, 4.8283454589843751e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 274., 483. ]
+               type: Vector2
+      frameIdx:
+         value: "109"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "52" ]
+      size:
+         value: "2677.04"
+         type: Double
+   -
+      timestamp: 1663
+      center:
+         values: [ 2.7647195434570312e+002, 4.8263603515624999e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 276., 481. ]
+               type: Vector2
+      frameIdx:
+         value: "110"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51" ]
+      size:
+         value: "2674.36"
+         type: Double
+   -
+      timestamp: 1685
+      center:
+         values: [ 2.7613745727539060e+002, 4.8243752441406252e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "111"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2671.69"
+         type: Double
+   -
+      timestamp: 1718
+      center:
+         values: [ 2.7601547241210937e+002, 4.8259058837890626e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "112"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2651.94"
+         type: Double
+   -
+      timestamp: 1728
+      center:
+         values: [ 2.7589348754882815e+002, 4.8259058837890626e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "113"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2651.18"
+         type: Double
+   -
+      timestamp: 1741
+      center:
+         values: [ 2.7546149902343751e+002, 4.8239326782226561e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "114"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2650.43"
+         type: Double
+   -
+      timestamp: 1758
+      center:
+         values: [ 2.7505473632812499e+002, 4.8200962524414064e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "115"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2648.8"
+         type: Double
+   -
+      timestamp: 1771
+      center:
+         values: [ 2.1991978759765624e+002, 3.8546089477539061e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "116"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2647.17"
+         type: Double
+   -
+      timestamp: 1787
+      center:
+         values: [ 1.6478483886718749e+002, 2.8891216430664065e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "117"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2117.08"
+         type: Double
+   -
+      timestamp: 1801
+      center:
+         values: [ 1.0964989013671875e+002, 1.9251649780273436e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "118"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "1587"
+         type: Double
+   -
+      timestamp: 1809
+      center:
+         values: [ 5.4824945068359376e+001, 9.6165087890625003e+001 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "119"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "1056.91"
+         type: Double
+   -
+      timestamp: 1833
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "120"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "528.457"
+         type: Double
+   -
+      timestamp: 1840
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 772., 525. ]
+               type: Vector2
+      frameIdx:
+         value: "121"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "42" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 1858
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 772., 527. ]
+               type: Vector2
+            -
+               values: [ 528., 465. ]
+               type: Vector2
+      frameIdx:
+         value: "122"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "42", "39" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 1872
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 767., 539. ]
+               type: Vector2
+            -
+               values: [ 527., 473. ]
+               type: Vector2
+      frameIdx:
+         value: "123"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51", "48" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 1889
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 771., 533. ]
+               type: Vector2
+            -
+               values: [ 531., 474. ]
+               type: Vector2
+      frameIdx:
+         value: "124"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45", "45" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 1899
+      center:
+         values: [ 1.2936226196289061e+002, 9.9254452514648435e+001 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 779., 534. ]
+               type: Vector2
+            -
+               values: [ 528., 474. ]
+               type: Vector2
+      frameIdx:
+         value: "125"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "48", "48" ]
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 1914
+      center:
+         values: [ 2.5932400512695312e+002, 1.9994221801757811e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 772., 534. ]
+               type: Vector2
+            -
+               values: [ 528., 474. ]
+               type: Vector2
+      frameIdx:
+         value: "126"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "44", "48" ]
+      size:
+         value: "331.127"
+         type: Double
+   -
+      timestamp: 1930
+      center:
+         values: [ 3.8940814208984375e+002, 3.0072190551757814e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 783., 536. ]
+               type: Vector2
+            -
+               values: [ 528., 475. ]
+               type: Vector2
+      frameIdx:
+         value: "127"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "48" ]
+      size:
+         value: "686.101"
+         type: Double
+   -
+      timestamp: 1940
+      center:
+         values: [ 5.1957886352539060e+002, 4.0150159301757810e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 785., 534. ]
+               type: Vector2
+            -
+               values: [ 529., 470. ]
+               type: Vector2
+      frameIdx:
+         value: "128"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "44" ]
+      size:
+         value: "1091.21"
+         type: Double
+   -
+      timestamp: 1953
+      center:
+         values: [ 6.4974958496093745e+002, 5.0228941040039064e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 772., 535. ]
+               type: Vector2
+            -
+               values: [ 527., 475. ]
+               type: Vector2
+      frameIdx:
+         value: "129"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45", "48" ]
+      size:
+         value: "1516.37"
+         type: Double
+   -
+      timestamp: 1970
+      center:
+         values: [ 6.5055804443359375e+002, 5.0382277526855466e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 775., 534. ]
+               type: Vector2
+            -
+               values: [ 526., 474. ]
+               type: Vector2
+      frameIdx:
+         value: "130"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "46", "48" ]
+      size:
+         value: "1949.55"
+         type: Double
+   -
+      timestamp: 1977
+      center:
+         values: [ 6.5069150390624998e+002, 5.0391469726562502e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 770., 534. ]
+               type: Vector2
+            -
+               values: [ 529., 470. ]
+               type: Vector2
+      frameIdx:
+         value: "131"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45", "43" ]
+      size:
+         value: "2051.6"
+         type: Double
+   -
+      timestamp: 1997
+      center:
+         values: [ 6.5077808837890620e+002, 5.0392282714843748e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 782., 535. ]
+               type: Vector2
+            -
+               values: [ 527., 475. ]
+               type: Vector2
+      frameIdx:
+         value: "132"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50", "48" ]
+      size:
+         value: "2132.25"
+         type: Double
+   -
+      timestamp: 2004
+      center:
+         values: [ 6.5133933105468748e+002, 5.0392282714843748e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 773., 534. ]
+               type: Vector2
+            -
+               values: [ 539., 472. ]
+               type: Vector2
+      frameIdx:
+         value: "133"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45", "40" ]
+      size:
+         value: "2162.76"
+         type: Double
+   -
+      timestamp: 2025
+      center:
+         values: [ 6.5190057373046875e+002, 5.0392282714843748e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 774., 534. ]
+               type: Vector2
+            -
+               values: [ 528., 475. ]
+               type: Vector2
+      frameIdx:
+         value: "134"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45", "48" ]
+      size:
+         value: "2175.33"
+         type: Double
+   -
+      timestamp: 2032
+      center:
+         values: [ 6.5261330566406252e+002, 5.0404807739257814e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 773., 535. ]
+               type: Vector2
+      frameIdx:
+         value: "135"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "46" ]
+      size:
+         value: "2177.77"
+         type: Double
+   -
+      timestamp: 2048
+      center:
+         values: [ 6.5352913208007817e+002, 5.0420231933593749e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 773., 536. ]
+               type: Vector2
+      frameIdx:
+         value: "136"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45" ]
+      size:
+         value: "2180.22"
+         type: Double
+   -
+      timestamp: 2068
+      center:
+         values: [ 6.5451743164062498e+002, 5.0434843139648439e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 774., 535. ]
+               type: Vector2
+      frameIdx:
+         value: "137"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "44" ]
+      size:
+         value: "2177.77"
+         type: Double
+   -
+      timestamp: 2081
+      center:
+         values: [ 6.5494448852539062e+002, 5.0455438232421875e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 774., 535. ]
+               type: Vector2
+      frameIdx:
+         value: "138"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "44" ]
+      size:
+         value: "2175.33"
+         type: Double
+   -
+      timestamp: 2096
+      center:
+         values: [ 6.7876077880859373e+002, 5.1070505371093748e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 773., 535. ]
+               type: Vector2
+      frameIdx:
+         value: "139"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45" ]
+      size:
+         value: "2155.73"
+         type: Double
+   -
+      timestamp: 2113
+      center:
+         values: [ 7.0245575561523435e+002, 5.1673047485351560e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 785., 535. ]
+               type: Vector2
+      frameIdx:
+         value: "140"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "49" ]
+      size:
+         value: "2138.23"
+         type: Double
+   -
+      timestamp: 2128
+      center:
+         values: [ 7.2605374755859373e+002, 5.2276112060546870e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 779., 538. ]
+               type: Vector2
+      frameIdx:
+         value: "141"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50" ]
+      size:
+         value: "2120.74"
+         type: Double
+   -
+      timestamp: 2135
+      center:
+         values: [ 7.4960390625000002e+002, 5.2880210571289058e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 780., 538. ]
+               type: Vector2
+      frameIdx:
+         value: "142"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "49" ]
+      size:
+         value: "2105.68"
+         type: Double
+   -
+      timestamp: 2150
+      center:
+         values: [ 7.7315406494140620e+002, 5.3489143066406245e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 771., 543. ]
+               type: Vector2
+      frameIdx:
+         value: "143"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "51" ]
+      size:
+         value: "2110.23"
+         type: Double
+   -
+      timestamp: 2168
+      center:
+         values: [ 7.7350029296875005e+002, 5.3518641357421870e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 782., 538. ]
+               type: Vector2
+      frameIdx:
+         value: "144"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "50" ]
+      size:
+         value: "2129.83"
+         type: Double
+   -
+      timestamp: 2175
+      center:
+         values: [ 7.7472186279296875e+002, 5.3584792480468752e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 780., 538. ]
+               type: Vector2
+      frameIdx:
+         value: "145"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "49" ]
+      size:
+         value: "2192.76"
+         type: Double
+   -
+      timestamp: 2192
+      center:
+         values: [ 7.7591284179687500e+002, 5.3648334960937495e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 772., 536. ]
+               type: Vector2
+      frameIdx:
+         value: "146"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "45" ]
+      size:
+         value: "2255.68"
+         type: Double
+   -
+      timestamp: 2209
+      center:
+         values: [ 7.7700366210937500e+002, 5.3710843505859373e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 773., 558. ]
+               type: Vector2
+      frameIdx:
+         value: "147"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "41" ]
+      size:
+         value: "2318.61"
+         type: Double
+   -
+      timestamp: 2218
+      center:
+         values: [ 7.7809448242187500e+002, 5.3763347167968755e+002 ]
+         type: Vector2
+      centers:
+         type: "Vector2[]"
+         values:
+            -
+               values: [ 770., 556. ]
+               type: Vector2
+      frameIdx:
+         value: "148"
+         type: Int
+      radii:
+         type: "Double[]"
+         values: [ "39" ]
+      size:
+         value: "2361.93"
+         type: Double
+   -
+      timestamp: 2232
+      center:
+         values: [ 779., 538. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "149"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2405.26"
+         type: Double
+   -
+      timestamp: 2246
+      center:
+         values: [ 7.7779999999999995e+002, 538. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "150"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2405.26"
+         type: Double
+   -
+      timestamp: 2264
+      center:
+         values: [ 7.7629999999999995e+002, 538. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "151"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2405.26"
+         type: Double
+   -
+      timestamp: 2280
+      center:
+         values: [ 7.7470000000000005e+002, 538. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "152"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2321.91"
+         type: Double
+   -
+      timestamp: 2297
+      center:
+         values: [ 7.7279999999999995e+002, 5.3750000000000000e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "153"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2184.26"
+         type: Double
+   -
+      timestamp: 2307
+      center:
+         values: [ 617., 4.2989999999999998e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "154"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "2006.31"
+         type: Double
+   -
+      timestamp: 2318
+      center:
+         values: [ 4.6239999999999998e+002, 3.2230000000000001e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "155"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "1525.25"
+         type: Double
+   -
+      timestamp: 2338
+      center:
+         values: [ 3.0810000000000002e+002, 2.1469999999999999e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "156"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "1044.2"
+         type: Double
+   -
+      timestamp: 2355
+      center:
+         values: [ 1.5390000000000001e+002, 1.0709999999999999e+002 ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "157"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "646.5"
+         type: Double
+   -
+      timestamp: 2361
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "158"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "303.099"
+         type: Double
+   -
+      timestamp: 2382
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "159"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2397
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "160"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2409
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "161"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2422
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "162"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2436
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "163"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2443
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "164"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2465
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "165"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2482
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "166"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2488
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "167"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2510
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "168"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2527
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "169"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2534
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "170"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2550
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "171"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2570
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "172"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2575
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "173"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2597
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "174"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2607
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "175"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2624
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "176"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2639
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "177"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2646
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "178"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2667
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "179"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2673
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "180"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2692
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "181"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double
+   -
+      timestamp: 2700
+      center:
+         values: [ 0., 0. ]
+         type: Vector2
+      centers:
+         type: "Type[]"
+         values:
+            []
+      frameIdx:
+         value: "182"
+         type: Int
+      radii:
+         type: "Type[]"
+         values:
+            []
+      size:
+         value: "0"
+         type: Double

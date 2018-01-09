@@ -8,6 +8,8 @@ fields:
 chapterType: 0
 options:
    locationAnnotation: 1
+   customActionView: 1
+   customValidationView: 1
 sections:
    -
       sectionId: 0
