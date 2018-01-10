@@ -1,5 +1,5 @@
-// After iteration #0, decision margin: 294%
-// previous good: 0, 52.806, 52.806, 53.6597, 53.6597, 55.1774, 55.1774, 60.4696, 60.4696, 60.7708, 60.7708, 
+// After iteration #0, decision margin: 252%
+// previous good: 0, 52.806, 52.806, 53.6597, 53.6597, 55.1774, 55.1774, 60.4696, 60.4696, 60.7708, 60.7708, 68.0707, 
 // previous bad: 239.804, (best: , templ: )
-set validationThreshold=157.884
-// decisionThreshold=0.54243
+set validationThreshold=162.446
+// decisionThreshold=0.549547

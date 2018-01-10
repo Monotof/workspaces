@@ -1,5 +1,5 @@
-// After iteration #5, decision margin: 91%
-// previous good: 0, 0, 0, 0, 0, 0, 0, 0, 61.8719, 71.9891, 75.2931, 84.8768, 98.5499, 120.652, 
-// previous bad: 230.815, 233.595, 241.979, 243.132, 249.588, 261.463, 261.463, 269.981, 271.933, 275.696, 278.989, 279.072, 292.177, (best: 131599759147690000, templ: C:/ioxp/workspaces/Station/AkkuStation01/0016/00016002/after2.png)
-set validationThreshold=190.815
-// decisionThreshold=0.636901
+// After iteration #5, decision margin: 89%
+// previous good: 0, 0, 0, 0, 0, 0, 17.6797, 61.8719, 71.9891, 78.1259, 84.4566, 98.5499, 115.755, 115.982, 121.478, 
+// previous bad: 230.5, 239.441, 243.778, 249.588, 261.463, 264.736, 266.797, 267.972, 272.394, 277.902, 278.989, 292.177, 302.054, (best: 131599759147690000, templ: C:/ioxp/workspaces/Station/AkkuStation01/0016/00016002/after2.png)
+set validationThreshold=191.174
+// decisionThreshold=0.639281
