@@ -83,7 +83,7 @@ sections:
             annotationId: 12000009
             sectionId: 12000
             layer: -1
-            command: "tracker->command transit=B"
+            command: ""
             startRelTS: "0"
             runPeriod: 23
             duration: -1.
@@ -110,7 +110,7 @@ sections:
             annotationId: 12000008
             sectionId: 12000
             layer: -1
-            command: "tracker->command transit=A"
+            command: ""
             startRelTS: "0"
             runPeriod: 23
             duration: -1.

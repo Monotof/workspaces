@@ -1,18 +1,17 @@
 %YAML:1.0
 ---
 versionCode: 1710118
-timestamp: "131599948384490000"
+timestamp: "131600605983590000"
 workflows:
    -
       id: 0
       chapters: []
-chapters: [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 19, 11, 18, 13, 14, 15, 16, 17,
-    72, 12, 20, 21, 71, 70, 24, 69, 26, 27, 28, 29, 30, 31, 32, 68, 67,
-    35, 66, 37, 38, 39, 40, 41, 42, 43, 65, 45, 46, 47, 48, 49, 50, 51,
-    52, 53, 63, 55, 56, 57, 58, 59, 60, 61, 62 ]
+chapters: [ 0, 10, 2, 3, 4, 5, 6, 7, 8, 9, 19, 11, 18, 13, 14, 15, 16,
+    17, 72, 12, 20, 21, 71, 70, 24, 69, 26, 27, 28, 29, 30, 31, 32, 68,
+    67, 35, 66, 37, 38, 39, 40, 41, 42, 43, 65, 45, 46, 47, 48, 49, 50,
+    51, 52, 53, 63, 55, 56, 57, 58, 59, 60, 61, 62 ]
 transitions:
    - { from:0, to:12, label:"", condition:"" }
-   - { from:1, to:2, label:"", condition:"" }
    - { from:2, to:3, label:"", condition:"" }
    - { from:3, to:4, label:"", condition:"" }
    - { from:4, to:5, label:"", condition:"" }
@@ -21,10 +20,10 @@ transitions:
    - { from:7, to:8, label:"", condition:"" }
    - { from:8, to:9, label:"", condition:"" }
    - { from:9, to:11, label:"", condition:"" }
+   - { from:10, to:2, label:"", condition:"" }
    - { from:11, to:13, label:"", condition:"" }
    - { from:12, to:-1, label:A, condition:"" }
-   - { from:12, to:-1, label:B, condition:"" }
-   - { from:12, to:1, label:"gekürzte Anleitung", condition:"" }
+   - { from:12, to:10, label:"gekürzte Anleitung", condition:"" }
    - { from:12, to:20, label:komplette Anleitung, condition:"" }
    - { from:13, to:14, label:"", condition:"" }
    - { from:14, to:15, label:"", condition:"" }
@@ -76,15 +75,14 @@ transitions:
    - { from:70, to:71, label:"", condition:"" }
    - { from:71, to:72, label:"", condition:"" }
 associations:
-   - { first:1, second:1, label:validate }
    - { first:2, second:2, label:validate }
    - { first:3, second:3, label:validate }
    - { first:4, second:4, label:validate }
    - { first:5, second:5, label:validate }
    - { first:6, second:6, label:validate }
    - { first:9, second:9, label:validate }
+   - { first:10, second:10, label:validate }
    - { first:11, second:11, label:validate }
-   - { first:14, second:14, label:validate }
    - { first:15, second:15, label:validate }
    - { first:16, second:16, label:validate }
    - { first:18, second:18, label:validate }

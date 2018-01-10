@@ -1,5 +1,5 @@
-// After iteration #2, decision margin: 1113433%
-// previous good: 0, 0, 0, 0, 
-// previous bad: 1113.43, 1214.33, (best: 131599805642730000, templ: C:/ioxp/workspaces/Station/AkkuStation01/0014/00014002/after2.png)
-set validationThreshold=556.717
-// decisionThreshold=0.5
+// After iteration #4, decision margin: 0% (threshold <50%)
+// previous good: 1e+007, 1e+007, 1e+007, 1e+007, 
+// previous bad: 1e+007, 1e+007, (best: , templ: )
+set validationThreshold=1.125e+007
+// decisionThreshold=1.#INF

@@ -1,5 +1,5 @@
-// After iteration #0, decision margin: 0% (threshold <50%)
+// After iteration #0, decision margin: 12177%
 // previous good: 0, 
-// previous bad: 
-set validationThreshold=0.1
+// previous bad: 12.1772, (best: , templ: )
+set validationThreshold=6.0886
 // decisionThreshold=0.5

@@ -3,8 +3,6 @@
 chapterId: 14
 title: "2x Stütze aufstecken"
 description: Aussparung nach oben vorne
-fields:
-   {}
 chapterType: 2001
 options:
    locationAnnotation: 1
@@ -194,32 +192,7 @@ sections:
       similarities:
          []
       annotations:
-         -
-            source: [ 605., 352. ]
-            target: [ 605., 572. ]
-            sourceTrackingType: 3
-            targetTrackingType: 3
-            opacity: 1.
-            pulsingInterval: 2.
-            color: [ 0, 0, 0 ]
-            fadeIn: 0.
-            fadeOut: 0.
-            zIndex: -10
-            annotationId: 14001000
-            sectionId: 14001
-            layer: -1
-            command: ""
-            startRelTS: "0"
-            runPeriod: 23
-            duration: -1.
-            category: Enactive
-            type: Animation
-            path: "0014/00014002/after.png"
-            maskType: 20
-            maskPath: "0014/00014002/discrMask.png"
-            maskAnimationInterval: 1.5000000000000000e+000
-            radialMaskCenter: [ 5.0000000000000000e-001,
-                5.0000000000000000e-001 ]
+         []
    -
       sectionId: 14002
       sectionType: 1002

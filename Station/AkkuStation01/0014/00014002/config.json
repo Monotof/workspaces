@@ -1,5 +1,6 @@
 {
-    "errorThreshold": 5.5671679162693408e+002,
-    "correctThreshold": 0.0,
-    "wrongThreshold": 1.1134335832538682e+003
+    "errorThreshold": 11250000.0,
+    "correctThreshold": 10000000.0,
+    "wrongThreshold": 10000000.0,
+    "decisionThreshold": .Inf
 }

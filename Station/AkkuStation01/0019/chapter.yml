@@ -3,8 +3,6 @@
 chapterId: 19
 title: Deckel aufsetzen
 description: Nasen vorne unten hinter Kante der Platte
-fields:
-   {}
 chapterType: 2001
 options:
    locationAnnotation: 1
@@ -19,7 +17,7 @@ sections:
       startFrame: 0
       stopFrame: 9
       focusFrame: 1
-      focusPoint: { values:[ 640., 360. ], type:Vector2 }
+      focusPoint: { values:[ 480., 332. ], type:Vector2 }
       focusPose:
          rows: 4
          cols: 4
@@ -139,8 +137,8 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
-            source: [ 6.3950000000000000e+002, 0. ]
-            target: [ 6.3950000000000000e+002, 719. ]
+            source: [ 4.7950000000000000e+002, 0. ]
+            target: [ 4.7950000000000000e+002, 720. ]
             sourceTrackingType: 3
             targetTrackingType: 3
             opacity: 8.9999997615814209e-001
@@ -163,7 +161,7 @@ sections:
             maskPath: ""
             maskAnimationInterval: 1.5000000000000000e+000
             radialMaskCenter: [ 5.0034773349761963e-001,
-                5.0034773349761963e-001 ]
+                4.8055553436279297e-001 ]
    -
       sectionId: 19001
       sectionType: 2001
@@ -172,7 +170,7 @@ sections:
       startFrame: 10
       stopFrame: 194
       focusFrame: 102
-      focusPoint: { values:[ 640., 360. ], type:Vector2 }
+      focusPoint: { values:[ 480., 332. ], type:Vector2 }
       focusPose:
          rows: 4
          cols: 4
@@ -195,8 +193,8 @@ sections:
          []
       annotations:
          -
-            source: [ 640., 250. ]
-            target: [ 640., 470. ]
+            source: [ 480., 222. ]
+            target: [ 480., 442. ]
             sourceTrackingType: 3
             targetTrackingType: 3
             opacity: 1.
@@ -228,7 +226,7 @@ sections:
       startFrame: 195
       stopFrame: 204
       focusFrame: 195
-      focusPoint: { values:[ 640., 360. ], type:Vector2 }
+      focusPoint: { values:[ 480., 332. ], type:Vector2 }
       focusPose:
          rows: 4
          cols: 4
