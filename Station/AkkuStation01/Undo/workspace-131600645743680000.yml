@@ -1,7 +1,7 @@
 %YAML:1.0
 ---
 versionCode: 1710118
-timestamp: "131599937913450000"
+timestamp: "131600605983590000"
 workspaceId: Station/AkkuStation01
 workflows:
    -
@@ -65,7 +65,7 @@ chapters:
                []
       transitions: [ { chapterId:12, label:"", condition:"" } ]
    -
-      chapterId: 1
+      chapterId: 10
       title: Platte platzieren
       description: ""
       fields:
@@ -89,14 +89,14 @@ chapters:
          askToProceedIdleTime: 6.
       sections:
          -
-            sectionId: 1000
+            sectionId: 10000
             sectionType: 1001
             channelId: main
             distance: 1.
             startFrame: 0
             stopFrame: 9
-            focusFrame: 1
-            focusPoint: { values:[ 374., 186. ], type:Vector2 }
+            focusFrame: 7
+            focusPoint: { values:[ 343., 191. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -109,7 +109,7 @@ chapters:
                   []
             minDurationRelTS: "0"
             animationPeriod: "0"
-            recordId: Action_20180109T115314
+            recordId: Action_20180110T115111
             homography:
                rows: 3
                cols: 3
@@ -129,8 +129,8 @@ chapters:
                   fadeIn: 0.
                   fadeOut: 0.
                   zIndex: -10
-                  annotationId: 1000000
-                  sectionId: 1000
+                  annotationId: 10000000
+                  sectionId: 10000
                   layer: 1
                   command: ""
                   startRelTS: "0"
@@ -138,7 +138,7 @@ chapters:
                   duration: -1.
                   category: InitOverlay
                   type: Animation
-                  path: "0001/00001000/init.avi"
+                  path: "0010/00010000/init.avi"
                   maskType: 2
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
@@ -184,8 +184,8 @@ chapters:
                      stippledLine: 0
                      startConnector: 0
                      endConnector: 0
-                  annotationId: 1000001
-                  sectionId: 1000
+                  annotationId: 10000001
+                  sectionId: 10000
                   layer: 1
                   command: ""
                   startRelTS: "0"
@@ -193,15 +193,15 @@ chapters:
                   duration: -1.
                   category: InitInstructionVideo
                   type: Animation
-                  path: "assets-ldpi/InstructionVideos/00001000.mp4"
+                  path: "assets-ldpi/InstructionVideos/00010000.mp4"
                   maskType: 1
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
                   radialMaskCenter: [ 5.0000000000000000e-001,
                       5.0000000000000000e-001 ]
                -
-                  annotationId: 1000003
-                  sectionId: 1000
+                  annotationId: 10000003
+                  sectionId: 10000
                   layer: 3
                   command: ""
                   startRelTS: "0"
@@ -209,15 +209,15 @@ chapters:
                   duration: -1.
                   category: InstructionVideo
                   type: FileAnnotation
-                  path: "assets/InstructionVideos/00001000.mp4"
+                  path: "assets/InstructionVideos/00010000.mp4"
                   title: Instruction Video
                   printFlag: 0
                   page: 1
                   thumbnail: ""
                   runDirectly: 0
                -
-                  source: [ 3.7350000000000000e+002, 0. ]
-                  target: [ 3.7350000000000000e+002, 720. ]
+                  source: [ 360., 0. ]
+                  target: [ 360., 720. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 8.9999997615814209e-001
@@ -226,8 +226,8 @@ chapters:
                   fadeIn: 0.
                   fadeOut: 0.
                   zIndex: -10
-                  annotationId: 1000002
-                  sectionId: 1000
+                  annotationId: 10000002
+                  sectionId: 10000
                   layer: 0
                   command: ""
                   startRelTS: "0"
@@ -235,21 +235,21 @@ chapters:
                   duration: -1.
                   category: ProceduralOverlay
                   type: Animation
-                  path: "0001/00001000/action.avi"
+                  path: "0010/00010000/action.avi"
                   maskType: 32
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0034773349761963e-001,
-                      3.7916666269302368e-001 ]
+                  radialMaskCenter: [ 4.8819446563720703e-001,
+                      3.8263887166976929e-001 ]
          -
-            sectionId: 1001
+            sectionId: 10001
             sectionType: 2001
             channelId: main
             distance: 1.
             startFrame: 10
-            stopFrame: 119
-            focusFrame: 64
-            focusPoint: { values:[ 374., 186. ], type:Vector2 }
+            stopFrame: 123
+            focusFrame: 66
+            focusPoint: { values:[ 343., 191. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -262,7 +262,7 @@ chapters:
                   []
             minDurationRelTS: "2000000"
             animationPeriod: "0"
-            recordId: Action_20180109T115314
+            recordId: Action_20180110T115111
             homography:
                rows: 3
                cols: 3
@@ -272,8 +272,8 @@ chapters:
                []
             annotations:
                -
-                  source: [ 374., 76. ]
-                  target: [ 374., 296. ]
+                  source: [ 343., 81. ]
+                  target: [ 343., 301. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 1.
@@ -282,8 +282,8 @@ chapters:
                   fadeIn: 0.
                   fadeOut: 0.
                   zIndex: -10
-                  annotationId: 1001000
-                  sectionId: 1001
+                  annotationId: 10001000
+                  sectionId: 10001
                   layer: -1
                   command: ""
                   startRelTS: "0"
@@ -291,21 +291,21 @@ chapters:
                   duration: -1.
                   category: Enactive
                   type: Animation
-                  path: "0001/00001002/after.png"
+                  path: "0010/00010002/after.png"
                   maskType: 20
-                  maskPath: "0001/00001002/discrMask.png"
+                  maskPath: "0010/00010002/discrMask.png"
                   maskAnimationInterval: 1.5000000000000000e+000
                   radialMaskCenter: [ 5.0000000000000000e-001,
                       5.0000000000000000e-001 ]
          -
-            sectionId: 1002
+            sectionId: 10002
             sectionType: 1002
             channelId: main
             distance: 1.
-            startFrame: 120
-            stopFrame: 129
-            focusFrame: 120
-            focusPoint: { values:[ 374., 186. ], type:Vector2 }
+            startFrame: 124
+            stopFrame: 133
+            focusFrame: 124
+            focusPoint: { values:[ 343., 191. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -318,7 +318,7 @@ chapters:
                   []
             minDurationRelTS: "0"
             animationPeriod: "0"
-            recordId: Action_20180109T115314
+            recordId: Action_20180110T115111
             homography:
                rows: 3
                cols: 3
@@ -338,8 +338,8 @@ chapters:
                   fadeIn: 0.
                   fadeOut: 0.
                   zIndex: -10
-                  annotationId: 1002000
-                  sectionId: 1002
+                  annotationId: 10002000
+                  sectionId: 10002
                   layer: 1
                   command: ""
                   startRelTS: "0"
@@ -347,7 +347,7 @@ chapters:
                   duration: -1.
                   category: InitOverlay
                   type: Animation
-                  path: "0001/00001002/init.avi"
+                  path: "0010/00010002/init.avi"
                   maskType: 2
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
@@ -393,8 +393,8 @@ chapters:
                      stippledLine: 0
                      startConnector: 0
                      endConnector: 0
-                  annotationId: 1002001
-                  sectionId: 1002
+                  annotationId: 10002001
+                  sectionId: 10002
                   layer: 1
                   command: ""
                   startRelTS: "0"
@@ -402,7 +402,7 @@ chapters:
                   duration: -1.
                   category: InitInstructionVideo
                   type: Animation
-                  path: "assets-ldpi/InstructionVideos/00001000.mp4"
+                  path: "assets-ldpi/InstructionVideos/00010000.mp4"
                   maskType: 1
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
@@ -1103,6 +1103,8 @@ chapters:
       chapterId: 4
       title: "2x Stützen aufstecken"
       description: auf korrekte Position achten
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -1789,6 +1791,8 @@ chapters:
       chapterId: 6
       title: vorderen Strang einsetzten
       description: roter Rand nach links
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -2132,6 +2136,8 @@ chapters:
       chapterId: 7
       title: "2x Spannhülse einsetzen"
       description: ""
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -2768,6 +2774,8 @@ chapters:
       chapterId: 9
       title: mittleren Strang einsetzen
       description: roter Rand nach links
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -3111,6 +3119,8 @@ chapters:
       chapterId: 19
       title: Deckel aufsetzen
       description: Nasen vorne unten hinter Kante der Platte
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -3137,7 +3147,7 @@ chapters:
             startFrame: 0
             stopFrame: 9
             focusFrame: 1
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 480., 332. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -3257,8 +3267,8 @@ chapters:
                   thumbnail: ""
                   runDirectly: 0
                -
-                  source: [ 6.3950000000000000e+002, 0. ]
-                  target: [ 6.3950000000000000e+002, 719. ]
+                  source: [ 4.7950000000000000e+002, 0. ]
+                  target: [ 4.7950000000000000e+002, 720. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 8.9999997615814209e-001
@@ -3281,7 +3291,7 @@ chapters:
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
                   radialMaskCenter: [ 5.0034773349761963e-001,
-                      5.0034773349761963e-001 ]
+                      4.8055553436279297e-001 ]
          -
             sectionId: 19001
             sectionType: 2001
@@ -3290,7 +3300,7 @@ chapters:
             startFrame: 10
             stopFrame: 194
             focusFrame: 102
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 480., 332. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -3313,8 +3323,8 @@ chapters:
                []
             annotations:
                -
-                  source: [ 640., 250. ]
-                  target: [ 640., 470. ]
+                  source: [ 480., 222. ]
+                  target: [ 480., 442. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 1.
@@ -3346,7 +3356,7 @@ chapters:
             startFrame: 195
             stopFrame: 204
             focusFrame: 195
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 480., 332. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -3454,6 +3464,8 @@ chapters:
       chapterId: 11
       title: vorderen Strang einsetzen
       description: roter Rand nach links
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -3797,6 +3809,8 @@ chapters:
       chapterId: 18
       title: "2x Stütze aufstecken"
       description: "über Kopf"
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -4140,6 +4154,8 @@ chapters:
       chapterId: 13
       title: "4x Spannhülsen einsetzen"
       description: ""
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -4458,6 +4474,8 @@ chapters:
       chapterId: 14
       title: "2x Stütze aufstecken"
       description: Aussparung nach oben vorne
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -4659,32 +4677,7 @@ chapters:
             similarities:
                []
             annotations:
-               -
-                  source: [ 605., 352. ]
-                  target: [ 605., 572. ]
-                  sourceTrackingType: 3
-                  targetTrackingType: 3
-                  opacity: 1.
-                  pulsingInterval: 2.
-                  color: [ 0, 0, 0 ]
-                  fadeIn: 0.
-                  fadeOut: 0.
-                  zIndex: -10
-                  annotationId: 14001000
-                  sectionId: 14001
-                  layer: -1
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: Enactive
-                  type: Animation
-                  path: "0014/00014002/after.png"
-                  maskType: 20
-                  maskPath: "0014/00014002/discrMask.png"
-                  maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0000000000000000e-001,
-                      5.0000000000000000e-001 ]
+               []
          -
             sectionId: 14002
             sectionType: 1002
@@ -4801,6 +4794,8 @@ chapters:
       chapterId: 15
       title: hinteren Strang einsetzen
       description: roter Rand nach rechts
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -5144,6 +5139,8 @@ chapters:
       chapterId: 16
       title: vorderen Strang einsetzen
       description: roter Rand nach rechts
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -5487,6 +5484,8 @@ chapters:
       chapterId: 17
       title: "2x Spannhülse einsetzen"
       description: ""
+      fields:
+         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -5803,8 +5802,8 @@ chapters:
       transitions: [ { chapterId:18, label:"", condition:"" } ]
    -
       chapterId: 72
-      title: ""
-      description: ""
+      title: Deckel verschrauben
+      description: "an der hinteren unteren Kante^mit 3x ISK M6x18 Senkkopf^mit Torx TX20"
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -5831,8 +5830,7 @@ chapters:
             startFrame: 0
             stopFrame: 9
             focusFrame: 9
-            focusPoint: { values:[ 1.2778762210000000e+003,
-                3.7876107800000000e+002 ], type:Vector2 }
+            focusPoint: { values:[ 377., 141. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -5952,8 +5950,92 @@ chapters:
                   thumbnail: ""
                   runDirectly: 0
                -
-                  source: [ 920., 0. ]
-                  target: [ 920., 720. ]
+                  source: [ 5.8280096435546875e+002,
+                      3.7548480987548828e+001 ]
+                  target: [ 5.8080157470703125e+002,
+                      1.5754872131347656e+002 ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: 0
+                  annotationId: 72000004
+                  sectionId: 72000
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Custom
+                  type: Animation
+                  path: assets/objects/screwdriver/down/green_cw
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 8.4880096435546875e+002,
+                      4.1548480987548828e+001 ]
+                  target: [ 8.4680163574218750e+002,
+                      1.6154872131347656e+002 ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: 0
+                  annotationId: 72000005
+                  sectionId: 72000
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Custom
+                  type: Animation
+                  path: assets/objects/screwdriver/down/green_cw
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 3.8580157470703125e+002,
+                      2.5548500061035156e+001 ]
+                  target: [ 3.8380221557617187e+002,
+                      1.4554873657226562e+002 ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: 0
+                  annotationId: 72000006
+                  sectionId: 72000
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Custom
+                  type: Animation
+                  path: assets/objects/screwdriver/down/green_cw
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 3.7650000000000000e+002, 0. ]
+                  target: [ 3.7650000000000000e+002, 720. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 8.9999997615814209e-001
@@ -5975,8 +6057,8 @@ chapters:
                   maskType: 32
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 7.4852514266967773e-001,
-                      5.1302850246429443e-001 ]
+                  radialMaskCenter: [ 5.0034773349761963e-001,
+                      3.4791666269302368e-001 ]
          -
             sectionId: 72001
             sectionType: 2001
@@ -5985,8 +6067,7 @@ chapters:
             startFrame: 10
             stopFrame: 349
             focusFrame: 179
-            focusPoint: { values:[ 1.2778762210000000e+003,
-                3.7876107800000000e+002 ], type:Vector2 }
+            focusPoint: { values:[ 377., 141. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -6009,10 +6090,8 @@ chapters:
                []
             annotations:
                -
-                  source: [ 1.2778762207031250e+003,
-                      2.6876107788085937e+002 ]
-                  target: [ 1.2778762207031250e+003,
-                      4.8876107788085937e+002 ]
+                  source: [ 377., 31. ]
+                  target: [ 377., 251. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 1.
@@ -6044,8 +6123,7 @@ chapters:
             startFrame: 350
             stopFrame: 359
             focusFrame: 350
-            focusPoint: { values:[ 1.2778762210000000e+003,
-                3.7876107800000000e+002 ], type:Vector2 }
+            focusPoint: { values:[ 377., 141. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -6247,7 +6325,7 @@ chapters:
                   annotationId: 12000009
                   sectionId: 12000
                   layer: -1
-                  command: "tracker->command transit=B"
+                  command: ""
                   startRelTS: "0"
                   runPeriod: 23
                   duration: -1.
@@ -6276,7 +6354,7 @@ chapters:
                   annotationId: 12000008
                   sectionId: 12000
                   layer: -1
-                  command: "tracker->command transit=A"
+                  command: ""
                   startRelTS: "0"
                   runPeriod: 23
                   duration: -1.
@@ -6290,15 +6368,12 @@ chapters:
                   fontSizeSingleLine: 0
                   backgroundColor: [ 29, 109, 9, 128 ]
       transitions: [ { chapterId:-1, label:A, condition:"" }, {
-          chapterId:-1, label:B, condition:"" }, { chapterId:1,
-          label:"gekürzte Anleitung", condition:"" }, { chapterId:20,
-          label:komplette Anleitung, condition:"" } ]
+          chapterId:10, label:"gekürzte Anleitung", condition:"" }, {
+          chapterId:20, label:komplette Anleitung, condition:"" } ]
    -
       chapterId: 20
       title: Platte platzieren
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: 0
@@ -6670,8 +6745,6 @@ chapters:
       chapterId: 21
       title: "2x Aufnahme Gummipuffer"
       description: "Kegelloch nach außen, Aussparung nach oben"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -7069,8 +7142,8 @@ chapters:
       transitions: [ { chapterId:24, label:"", condition:"" } ]
    -
       chapterId: 71
-      title: ""
-      description: ""
+      title: Deckel verschrauben
+      description: "an der vorderen unteren Kante^mit 3x ISK M6x18 Senkkopf^mit Torx TX20"
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -7216,6 +7289,90 @@ chapters:
                   page: 1
                   thumbnail: ""
                   runDirectly: 0
+               -
+                  source: [ 5.8080194091796875e+002,
+                      7.1754870605468750e+002 ]
+                  target: [ 5.8280126953125000e+002,
+                      6.1354833984375000e+002 ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: 0
+                  annotationId: 71000004
+                  sectionId: 71000
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Custom
+                  type: Animation
+                  path: assets/objects/screwdriver/down/green_cw
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 8.4480194091796875e+002,
+                      7.1854870605468750e+002 ]
+                  target: [ 8.4680126953125000e+002,
+                      6.1454833984375000e+002 ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: 0
+                  annotationId: 71000005
+                  sectionId: 71000
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Custom
+                  type: Animation
+                  path: assets/objects/screwdriver/down/green_cw
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 3.5480255126953125e+002,
+                      7.2154907226562500e+002 ]
+                  target: [ 3.5680160522460937e+002,
+                      6.1754833984375000e+002 ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: 0
+                  annotationId: 71000006
+                  sectionId: 71000
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Custom
+                  type: Animation
+                  path: assets/objects/screwdriver/down/green_cw
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
                -
                   source: [ 6.3950000000000000e+002, 0. ]
                   target: [ 6.3950000000000000e+002, 719. ]
@@ -7387,8 +7544,8 @@ chapters:
       transitions: [ { chapterId:72, label:"", condition:"" } ]
    -
       chapterId: 70
-      title: ""
-      description: ""
+      title: Deckel verschrauben
+      description: "mit 2x ISK M6x100^mit Inbus 5"
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -7415,7 +7572,7 @@ chapters:
             startFrame: 0
             stopFrame: 9
             focusFrame: 9
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 461., 706. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -7535,8 +7692,8 @@ chapters:
                   thumbnail: ""
                   runDirectly: 0
                -
-                  source: [ 6.3950000000000000e+002, 0. ]
-                  target: [ 6.3950000000000000e+002, 719. ]
+                  source: [ 4.6050000000000000e+002, 0. ]
+                  target: [ 4.6050000000000000e+002, 720. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 8.9999997615814209e-001
@@ -7559,7 +7716,7 @@ chapters:
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
                   radialMaskCenter: [ 5.0034773349761963e-001,
-                      5.0034773349761963e-001 ]
+                      7.4027776718139648e-001 ]
          -
             sectionId: 70001
             sectionType: 2001
@@ -7568,7 +7725,7 @@ chapters:
             startFrame: 10
             stopFrame: 237
             focusFrame: 123
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 461., 706. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -7590,7 +7747,32 @@ chapters:
             similarities:
                []
             annotations:
-               []
+               -
+                  source: [ 461., 596. ]
+                  target: [ 461., 816. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: 2.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 70001000
+                  sectionId: 70001
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Enactive
+                  type: Animation
+                  path: "0070/00070002/after.png"
+                  maskType: 20
+                  maskPath: "0070/00070002/discrMask.png"
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
          -
             sectionId: 70002
             sectionType: 1002
@@ -7599,7 +7781,7 @@ chapters:
             startFrame: 238
             stopFrame: 247
             focusFrame: 238
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 461., 706. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -7707,8 +7889,6 @@ chapters:
       chapterId: 24
       title: Festschrauben
       description: mit 4x Sicherungsscheibe M5 und 4x Mutter M5
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -8137,8 +8317,8 @@ chapters:
       transitions: [ { chapterId:26, label:"", condition:"" } ]
    -
       chapterId: 69
-      title: ""
-      description: ""
+      title: Deckel verschrauben
+      description: "mit 8x ISK M6x190^mit Inbus 5"
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -8165,7 +8345,7 @@ chapters:
             startFrame: 0
             stopFrame: 9
             focusFrame: 9
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 465., 600. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -8285,8 +8465,8 @@ chapters:
                   thumbnail: ""
                   runDirectly: 0
                -
-                  source: [ 6.3950000000000000e+002, 0. ]
-                  target: [ 6.3950000000000000e+002, 719. ]
+                  source: [ 4.6450000000000000e+002, 0. ]
+                  target: [ 4.6450000000000000e+002, 720. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 8.9999997615814209e-001
@@ -8309,7 +8489,7 @@ chapters:
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
                   radialMaskCenter: [ 5.0034773349761963e-001,
-                      5.0034773349761963e-001 ]
+                      6.6666662693023682e-001 ]
          -
             sectionId: 69001
             sectionType: 2001
@@ -8318,7 +8498,7 @@ chapters:
             startFrame: 10
             stopFrame: 437
             focusFrame: 223
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 465., 600. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -8340,7 +8520,32 @@ chapters:
             similarities:
                []
             annotations:
-               []
+               -
+                  source: [ 465., 490. ]
+                  target: [ 465., 710. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: 2.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 69001000
+                  sectionId: 69001
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Enactive
+                  type: Animation
+                  path: "0069/00069002/after.png"
+                  maskType: 20
+                  maskPath: "0069/00069002/discrMask.png"
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
          -
             sectionId: 69002
             sectionType: 1002
@@ -8349,7 +8554,7 @@ chapters:
             startFrame: 438
             stopFrame: 447
             focusFrame: 438
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 465., 600. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -8457,8 +8662,6 @@ chapters:
       chapterId: 26
       title: "2x Stütze aufstecken"
       description: auf Schrauben stecken
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -8777,8 +8980,6 @@ chapters:
       chapterId: 27
       title: "2x Spannhülse einsetzen"
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -9122,8 +9323,6 @@ chapters:
       chapterId: 28
       title: linke Seitenwand aufstellen
       description: Aussparung nach vorne
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -9442,8 +9641,6 @@ chapters:
       chapterId: 29
       title: rechte Seitenwand aufstellen
       description: Aussparung nach vorne
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -9787,8 +9984,6 @@ chapters:
       chapterId: 30
       title: hinteren Strang einsetzen
       description: roten Rand nach rechts
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -10132,8 +10327,6 @@ chapters:
       chapterId: 31
       title: vorderen Strang einsetzen
       description: roter Rand  nach links
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -10452,8 +10645,6 @@ chapters:
       chapterId: 32
       title: Sicherungshalter platzieren
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -10795,8 +10986,8 @@ chapters:
       transitions: [ { chapterId:35, label:"", condition:"" } ]
    -
       chapterId: 68
-      title: ""
-      description: ""
+      title: Kupferwinkel festschrauben
+      description: "mit 3x Schraube M4x8^mit Torx TX20"
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -10823,7 +11014,7 @@ chapters:
             startFrame: 0
             stopFrame: 9
             focusFrame: 9
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 143., 597. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -10943,8 +11134,8 @@ chapters:
                   thumbnail: ""
                   runDirectly: 0
                -
-                  source: [ 6.3950000000000000e+002, 0. ]
-                  target: [ 6.3950000000000000e+002, 719. ]
+                  source: [ 360., 0. ]
+                  target: [ 360., 720. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 8.9999997615814209e-001
@@ -10966,8 +11157,8 @@ chapters:
                   maskType: 32
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0034773349761963e-001,
-                      5.0034773349761963e-001 ]
+                  radialMaskCenter: [ 3.4930557012557983e-001,
+                      6.6458332538604736e-001 ]
          -
             sectionId: 68001
             sectionType: 2001
@@ -10976,7 +11167,7 @@ chapters:
             startFrame: 10
             stopFrame: 353
             focusFrame: 181
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 143., 597. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -10998,7 +11189,32 @@ chapters:
             similarities:
                []
             annotations:
-               []
+               -
+                  source: [ 143., 487. ]
+                  target: [ 143., 707. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: 2.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 68001000
+                  sectionId: 68001
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Enactive
+                  type: Animation
+                  path: "0068/00068002/after.png"
+                  maskType: 20
+                  maskPath: "0068/00068002/discrMask.png"
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
          -
             sectionId: 68002
             sectionType: 1002
@@ -11007,7 +11223,7 @@ chapters:
             startFrame: 354
             stopFrame: 363
             focusFrame: 354
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 143., 597. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -11113,8 +11329,8 @@ chapters:
       transitions: [ { chapterId:69, label:"", condition:"" } ]
    -
       chapterId: 67
-      title: ""
-      description: ""
+      title: "6x Mutter M20 aufschrauben"
+      description: und damit die Kupferplatten befestigen
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -11141,7 +11357,7 @@ chapters:
             startFrame: 0
             stopFrame: 9
             focusFrame: 9
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 231., 435. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -11261,8 +11477,8 @@ chapters:
                   thumbnail: ""
                   runDirectly: 0
                -
-                  source: [ 6.3950000000000000e+002, 0. ]
-                  target: [ 6.3950000000000000e+002, 719. ]
+                  source: [ 360., 0. ]
+                  target: [ 360., 720. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 8.9999997615814209e-001
@@ -11284,8 +11500,8 @@ chapters:
                   maskType: 32
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0034773349761963e-001,
-                      5.0034773349761963e-001 ]
+                  radialMaskCenter: [ 4.1041666269302368e-001,
+                      5.5208337306976318e-001 ]
          -
             sectionId: 67001
             sectionType: 2001
@@ -11294,7 +11510,7 @@ chapters:
             startFrame: 10
             stopFrame: 203
             focusFrame: 106
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 231., 435. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -11316,7 +11532,32 @@ chapters:
             similarities:
                []
             annotations:
-               []
+               -
+                  source: [ 231., 325. ]
+                  target: [ 231., 545. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: 2.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 67001000
+                  sectionId: 67001
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Enactive
+                  type: Animation
+                  path: "0067/00067002/after.png"
+                  maskType: 20
+                  maskPath: "0067/00067002/discrMask.png"
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
          -
             sectionId: 67002
             sectionType: 1002
@@ -11325,7 +11566,7 @@ chapters:
             startFrame: 204
             stopFrame: 213
             focusFrame: 204
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 231., 435. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -11433,8 +11674,6 @@ chapters:
       chapterId: 35
       title: Sicherungshalter festschrauben
       description: "mit 2x Taptite M4x14 ^mit Torx TX20"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -11776,8 +12015,8 @@ chapters:
       transitions: [ { chapterId:37, label:"", condition:"" } ]
    -
       chapterId: 66
-      title: ""
-      description: ""
+      title: "4x Kupferplatte aufstecken"
+      description: "Kupferplatten und Winkel linke Seite^die Platten dürfen sich nie berühren!"
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -11804,7 +12043,7 @@ chapters:
             startFrame: 0
             stopFrame: 9
             focusFrame: 9
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 236., 404. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -11924,8 +12163,8 @@ chapters:
                   thumbnail: ""
                   runDirectly: 0
                -
-                  source: [ 6.3950000000000000e+002, 0. ]
-                  target: [ 6.3950000000000000e+002, 719. ]
+                  source: [ 360., 0. ]
+                  target: [ 360., 720. ]
                   sourceTrackingType: 3
                   targetTrackingType: 3
                   opacity: 8.9999997615814209e-001
@@ -11947,8 +12186,8 @@ chapters:
                   maskType: 32
                   maskPath: ""
                   maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0034773349761963e-001,
-                      5.0034773349761963e-001 ]
+                  radialMaskCenter: [ 4.1388887166976929e-001,
+                      5.3055554628372192e-001 ]
          -
             sectionId: 66001
             sectionType: 2001
@@ -11957,7 +12196,7 @@ chapters:
             startFrame: 10
             stopFrame: 310
             focusFrame: 160
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 236., 404. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -11979,7 +12218,32 @@ chapters:
             similarities:
                []
             annotations:
-               []
+               -
+                  source: [ 236., 294. ]
+                  target: [ 236., 514. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: 2.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 66001000
+                  sectionId: 66001
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Enactive
+                  type: Animation
+                  path: "0066/00066002/after.png"
+                  maskType: 20
+                  maskPath: "0066/00066002/discrMask.png"
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
          -
             sectionId: 66002
             sectionType: 1002
@@ -11988,7 +12252,7 @@ chapters:
             startFrame: 311
             stopFrame: 320
             focusFrame: 311
-            focusPoint: { values:[ 640., 360. ], type:Vector2 }
+            focusPoint: { values:[ 236., 404. ], type:Vector2 }
             focusPose:
                rows: 4
                cols: 4
@@ -12096,8 +12360,6 @@ chapters:
       chapterId: 37
       title: Sicherungsplatte aufstecken
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -12441,8 +12703,6 @@ chapters:
       chapterId: 38
       title: "2x Anschlusskabel"
       description: "große Öse innen und flache Oberseite"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -12786,8 +13046,6 @@ chapters:
       chapterId: 39
       title: "2x Federscheiben M8 aufstecken"
       description: " "
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -13131,8 +13389,6 @@ chapters:
       chapterId: 40
       title: "2x Unterlegscheiben M8 aufstecken"
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -13476,8 +13732,6 @@ chapters:
       chapterId: 41
       title: "2x Festschrauben"
       description: "mit 2x Mutter M8^mit Schraubenschlüssel 17"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -13796,8 +14050,6 @@ chapters:
       chapterId: 42
       title: "2x Silikonschlauch aufstecken"
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -14171,8 +14423,6 @@ chapters:
       chapterId: 43
       title: "2x Stütze aufstecken"
       description: Aussparung nach unten vorne
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -14489,10 +14739,8 @@ chapters:
       transitions: [ { chapterId:45, label:"", condition:"" } ]
    -
       chapterId: 65
-      title: Step
-      description: ""
-      fields:
-         {}
+      title: "5x Mutter M20 aufschrauben"
+      description: und damit die Kupferplatten befestigen
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -14638,6 +14886,32 @@ chapters:
                   page: 1
                   thumbnail: ""
                   runDirectly: 0
+               -
+                  source: [ 920., 0. ]
+                  target: [ 920., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 65000002
+                  sectionId: 65000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0065/00065000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.7013893127441406e-001,
+                      6.2361109256744385e-001 ]
          -
             sectionId: 65001
             sectionType: 2001
@@ -14668,7 +14942,32 @@ chapters:
             similarities:
                []
             annotations:
-               []
+               -
+                  source: [ 1021., 428. ]
+                  target: [ 1021., 648. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: 2.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 65001000
+                  sectionId: 65001
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Enactive
+                  type: Animation
+                  path: "0065/00065002/after.png"
+                  maskType: 20
+                  maskPath: "0065/00065002/discrMask.png"
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
          -
             sectionId: 65002
             sectionType: 1002
@@ -14785,8 +15084,6 @@ chapters:
       chapterId: 45
       title: Sensorkabel verlegen
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -15130,8 +15427,6 @@ chapters:
       chapterId: 46
       title: mittleren Strang einsetzen
       description: roter Rand nach links
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -15475,8 +15770,6 @@ chapters:
       chapterId: 47
       title: vorderen Strang einsetzen
       description: roter Rand nach links
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -15820,8 +16113,6 @@ chapters:
       chapterId: 48
       title: "4x Spannhülsen einsetzen"
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -16140,8 +16431,6 @@ chapters:
       chapterId: 49
       title: "2x Stütze aufstecken"
       description: Aussparung nach oben vorne
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -16485,8 +16774,6 @@ chapters:
       chapterId: 50
       title: hinteren Strang einsetzen
       description: roter Rand nach rechts
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -16830,8 +17117,6 @@ chapters:
       chapterId: 51
       title: vorderen Strang einsetzen
       description: roter Rand nach rechts
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -17175,8 +17460,6 @@ chapters:
       chapterId: 52
       title: "2x Spannhülse einsetzen"
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -17495,8 +17778,6 @@ chapters:
       chapterId: 53
       title: "2x Stütze aufstecken"
       description: "Kopfüber"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -17835,14 +18116,382 @@ chapters:
                   maskAnimationInterval: 1.5000000000000000e+000
                   radialMaskCenter: [ 5.0000000000000000e-001,
                       5.0000000000000000e-001 ]
-      transitions: [ { chapterId:54, label:"", condition:"" }, {
-          chapterId:55, label:"", condition:"" } ]
+      transitions: [ { chapterId:55, label:"", condition:"" } ]
+   -
+      chapterId: 63
+      title: "3x Kupferplatten aufstecken"
+      description: "Kupferplatten und Winkel rechte Seite^die Platten dürfen sich nie berühren!"
+      chapterType: 2001
+      options:
+         automaticFocusRoiRadius: -1
+         proceduralAnnotation: 2
+         locationAnnotation: 1
+         overlayTargetState: 1
+         initAnnotation: 3
+         focusAnnotation: 0
+         instructionVideoDuration: -1.
+         instructionVideoStabilization: 0
+         instructionVideoAudio: 0
+         instructionVideoFadeEffect: 0
+         customActionView: 1
+         customValidationView: 1
+         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
+         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
+         askToProceedIdleTime: 6.
+      sections:
+         -
+            sectionId: 63000
+            sectionType: 1001
+            channelId: main
+            distance: 1.
+            startFrame: 0
+            stopFrame: 9
+            focusFrame: 9
+            focusPoint: { values:[ 944., 442. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T153619
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 63000000
+                  sectionId: 63000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0063/00063000/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 63000001
+                  sectionId: 63000
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00063000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  annotationId: 63000003
+                  sectionId: 63000
+                  layer: 3
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InstructionVideo
+                  type: FileAnnotation
+                  path: "assets/InstructionVideos/00063000.mp4"
+                  title: Instruction Video
+                  printFlag: 0
+                  page: 1
+                  thumbnail: ""
+                  runDirectly: 0
+               -
+                  source: [ 8.5880255126953125e+002,
+                      7.7548881530761719e+001 ]
+                  target: [ 8.5780157470703125e+002,
+                      2.3754872131347656e+002 ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: 0
+                  annotationId: 63000004
+                  sectionId: 63000
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Custom
+                  type: Animation
+                  path: "assets/symbols/ISO_7010_W012.png"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 920., 0. ]
+                  target: [ 920., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 63000002
+                  sectionId: 63000
+                  layer: 0
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: ProceduralOverlay
+                  type: Animation
+                  path: "0063/00063000/action.avi"
+                  maskType: 32
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.1666665077209473e-001,
+                      5.5694442987442017e-001 ]
+         -
+            sectionId: 63001
+            sectionType: 2001
+            channelId: main
+            distance: 1.
+            startFrame: 10
+            stopFrame: 462
+            focusFrame: 236
+            focusPoint: { values:[ 944., 442. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "2000000"
+            animationPeriod: "0"
+            recordId: Action_20180109T153619
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 944., 332. ]
+                  target: [ 944., 552. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 1.
+                  pulsingInterval: 2.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 63001000
+                  sectionId: 63001
+                  layer: -1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: Enactive
+                  type: Animation
+                  path: "0063/00063002/after.png"
+                  maskType: 20
+                  maskPath: "0063/00063002/discrMask.png"
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+         -
+            sectionId: 63002
+            sectionType: 1002
+            channelId: main
+            distance: 1.
+            startFrame: 463
+            stopFrame: 472
+            focusFrame: 463
+            focusPoint: { values:[ 944., 442. ], type:Vector2 }
+            focusPose:
+               rows: 4
+               cols: 4
+               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
+                   0., 0., 0., 1. ]
+               type: Matrix
+            focusROI:
+               type: "Vector2[][]"
+               values:
+                  []
+            minDurationRelTS: "0"
+            animationPeriod: "0"
+            recordId: Action_20180109T153619
+            homography:
+               rows: 3
+               cols: 3
+               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
+               type: Matrix
+            similarities:
+               []
+            annotations:
+               -
+                  source: [ 640., 0. ]
+                  target: [ 640., 720. ]
+                  sourceTrackingType: 3
+                  targetTrackingType: 3
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  annotationId: 63002000
+                  sectionId: 63002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitOverlay
+                  type: Animation
+                  path: "0063/00063002/init.avi"
+                  maskType: 2
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+               -
+                  source: [ 170., -300. ]
+                  target: [ 170., -150. ]
+                  sourceTrackingType: 5
+                  targetTrackingType: 5
+                  opacity: 8.9999997615814209e-001
+                  pulsingInterval: -1.
+                  color: [ 0, 0, 0 ]
+                  fadeIn: 0.
+                  fadeOut: 0.
+                  zIndex: -10
+                  border:
+                     source: [ 640., 0. ]
+                     target: [ 640., 720. ]
+                     sourceTrackingType: 8
+                     targetTrackingType: 8
+                     opacity: 1.
+                     pulsingInterval: -1.
+                     color: [ 255, 192, 0 ]
+                     fadeIn: 0.
+                     fadeOut: 0.
+                     zIndex: 0
+                     annotationId: -1
+                     sectionId: -1
+                     layer: -1
+                     command: ""
+                     startRelTS: "0"
+                     runPeriod: 23
+                     duration: -1.
+                     category: Custom
+                     type: PenStroke
+                     points:
+                        - []
+                     thickness: 4
+                     closedLoop: 1
+                     interpolateStroke: 0
+                     outlineColor: [ 0, 0, 0, 0 ]
+                     stippledLine: 0
+                     startConnector: 0
+                     endConnector: 0
+                  annotationId: 63002001
+                  sectionId: 63002
+                  layer: 1
+                  command: ""
+                  startRelTS: "0"
+                  runPeriod: 23
+                  duration: -1.
+                  category: InitInstructionVideo
+                  type: Animation
+                  path: "assets-ldpi/InstructionVideos/00063000.mp4"
+                  maskType: 1
+                  maskPath: ""
+                  maskAnimationInterval: 1.5000000000000000e+000
+                  radialMaskCenter: [ 5.0000000000000000e-001,
+                      5.0000000000000000e-001 ]
+      transitions: [ { chapterId:65, label:"", condition:"" } ]
    -
       chapterId: 55
       title: "Kabelbinder rechts einfädeln"
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -18186,8 +18835,6 @@ chapters:
       chapterId: 56
       title: "Kabelbinder links einfädeln"
       description: ""
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -18506,8 +19153,6 @@ chapters:
       chapterId: 57
       title: Deckel aufsetzen
       description: "Sensorkabel durch Öffnung führen^Nasen vorne unten  hinter die Kante der Bodenplatte"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: 0
@@ -18851,8 +19496,6 @@ chapters:
       chapterId: 58
       title: "8x Seitenplatten festschrauben"
       description: "mit Linsenschrauben M5x10^mit Unterlegscheiben M5^mit Tory TX20"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -19420,8 +20063,6 @@ chapters:
       chapterId: 59
       title: rechte Seite spannen
       description: "mit 4x ISK 6x110^mit Inbus 5"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -19765,8 +20406,6 @@ chapters:
       chapterId: 60
       title: linke Seite spannen
       description: "mit 4x ISK 6x110^mit Inbus 5"
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -20110,8 +20749,6 @@ chapters:
       chapterId: 61
       title: "6x Verbindungsstück M20 eindrehen"
       description: auf der linken Seite
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -20455,8 +21092,6 @@ chapters:
       chapterId: 62
       title: "6x Verbindungsstück M20 eindrehen"
       description: auf der rechten Seite
-      fields:
-         {}
       chapterType: 2001
       options:
          automaticFocusRoiRadius: -1
@@ -20796,383 +21431,8 @@ chapters:
                   radialMaskCenter: [ 5.0000000000000000e-001,
                       5.0000000000000000e-001 ]
       transitions: [ { chapterId:63, label:"", condition:"" } ]
-   -
-      chapterId: 63
-      title: "3x Kupferplatten aufstecken"
-      description: "Kupferplatten und Winkel rechte Seite^die Platten dürfen sich nie berühren!"
-      fields:
-         {}
-      chapterType: 2001
-      options:
-         automaticFocusRoiRadius: -1
-         proceduralAnnotation: 2
-         locationAnnotation: 1
-         overlayTargetState: 1
-         initAnnotation: 3
-         focusAnnotation: 0
-         instructionVideoDuration: -1.
-         instructionVideoStabilization: 0
-         instructionVideoAudio: 0
-         instructionVideoFadeEffect: 0
-         customActionView: 1
-         customValidationView: 1
-         validationSuccessfulCommand: "renderer->command playSound&path=assets/sounds/correct.mp3&section=-1"
-         validationFailedCommand: "renderer->command playSound&path=assets/sounds/wrong.mp3&section=-1"
-         askToProceedIdleTime: 6.
-      sections:
-         -
-            sectionId: 63000
-            sectionType: 1001
-            channelId: main
-            distance: 1.
-            startFrame: 0
-            stopFrame: 9
-            focusFrame: 9
-            focusPoint: { values:[ 944., 442. ], type:Vector2 }
-            focusPose:
-               rows: 4
-               cols: 4
-               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
-                   0., 0., 0., 1. ]
-               type: Matrix
-            focusROI:
-               type: "Vector2[][]"
-               values:
-                  []
-            minDurationRelTS: "0"
-            animationPeriod: "0"
-            recordId: Action_20180109T153619
-            homography:
-               rows: 3
-               cols: 3
-               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
-               type: Matrix
-            similarities:
-               []
-            annotations:
-               -
-                  source: [ 640., 0. ]
-                  target: [ 640., 720. ]
-                  sourceTrackingType: 3
-                  targetTrackingType: 3
-                  opacity: 8.9999997615814209e-001
-                  pulsingInterval: -1.
-                  color: [ 0, 0, 0 ]
-                  fadeIn: 0.
-                  fadeOut: 0.
-                  zIndex: -10
-                  annotationId: 63000000
-                  sectionId: 63000
-                  layer: 1
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: InitOverlay
-                  type: Animation
-                  path: "0063/00063000/init.avi"
-                  maskType: 2
-                  maskPath: ""
-                  maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0000000000000000e-001,
-                      5.0000000000000000e-001 ]
-               -
-                  source: [ 170., -300. ]
-                  target: [ 170., -150. ]
-                  sourceTrackingType: 5
-                  targetTrackingType: 5
-                  opacity: 8.9999997615814209e-001
-                  pulsingInterval: -1.
-                  color: [ 0, 0, 0 ]
-                  fadeIn: 0.
-                  fadeOut: 0.
-                  zIndex: -10
-                  border:
-                     source: [ 640., 0. ]
-                     target: [ 640., 720. ]
-                     sourceTrackingType: 8
-                     targetTrackingType: 8
-                     opacity: 1.
-                     pulsingInterval: -1.
-                     color: [ 255, 192, 0 ]
-                     fadeIn: 0.
-                     fadeOut: 0.
-                     zIndex: 0
-                     annotationId: -1
-                     sectionId: -1
-                     layer: -1
-                     command: ""
-                     startRelTS: "0"
-                     runPeriod: 23
-                     duration: -1.
-                     category: Custom
-                     type: PenStroke
-                     points:
-                        - []
-                     thickness: 4
-                     closedLoop: 1
-                     interpolateStroke: 0
-                     outlineColor: [ 0, 0, 0, 0 ]
-                     stippledLine: 0
-                     startConnector: 0
-                     endConnector: 0
-                  annotationId: 63000001
-                  sectionId: 63000
-                  layer: 1
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: InitInstructionVideo
-                  type: Animation
-                  path: "assets-ldpi/InstructionVideos/00063000.mp4"
-                  maskType: 1
-                  maskPath: ""
-                  maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0000000000000000e-001,
-                      5.0000000000000000e-001 ]
-               -
-                  annotationId: 63000003
-                  sectionId: 63000
-                  layer: 3
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: InstructionVideo
-                  type: FileAnnotation
-                  path: "assets/InstructionVideos/00063000.mp4"
-                  title: Instruction Video
-                  printFlag: 0
-                  page: 1
-                  thumbnail: ""
-                  runDirectly: 0
-               -
-                  source: [ 8.5880255126953125e+002,
-                      7.7548881530761719e+001 ]
-                  target: [ 8.5780157470703125e+002,
-                      2.3754872131347656e+002 ]
-                  sourceTrackingType: 3
-                  targetTrackingType: 3
-                  opacity: 1.
-                  pulsingInterval: -1.
-                  color: [ 0, 0, 0 ]
-                  fadeIn: 0.
-                  fadeOut: 0.
-                  zIndex: 0
-                  annotationId: 63000004
-                  sectionId: 63000
-                  layer: -1
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: Custom
-                  type: Animation
-                  path: "assets/symbols/ISO_7010_W012.png"
-                  maskType: 1
-                  maskPath: ""
-                  maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0000000000000000e-001,
-                      5.0000000000000000e-001 ]
-               -
-                  source: [ 920., 0. ]
-                  target: [ 920., 720. ]
-                  sourceTrackingType: 3
-                  targetTrackingType: 3
-                  opacity: 8.9999997615814209e-001
-                  pulsingInterval: -1.
-                  color: [ 0, 0, 0 ]
-                  fadeIn: 0.
-                  fadeOut: 0.
-                  zIndex: -10
-                  annotationId: 63000002
-                  sectionId: 63000
-                  layer: 0
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: ProceduralOverlay
-                  type: Animation
-                  path: "0063/00063000/action.avi"
-                  maskType: 32
-                  maskPath: ""
-                  maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.1666665077209473e-001,
-                      5.5694442987442017e-001 ]
-         -
-            sectionId: 63001
-            sectionType: 2001
-            channelId: main
-            distance: 1.
-            startFrame: 10
-            stopFrame: 462
-            focusFrame: 236
-            focusPoint: { values:[ 944., 442. ], type:Vector2 }
-            focusPose:
-               rows: 4
-               cols: 4
-               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
-                   0., 0., 0., 1. ]
-               type: Matrix
-            focusROI:
-               type: "Vector2[][]"
-               values:
-                  []
-            minDurationRelTS: "2000000"
-            animationPeriod: "0"
-            recordId: Action_20180109T153619
-            homography:
-               rows: 3
-               cols: 3
-               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
-               type: Matrix
-            similarities:
-               []
-            annotations:
-               -
-                  source: [ 944., 332. ]
-                  target: [ 944., 552. ]
-                  sourceTrackingType: 3
-                  targetTrackingType: 3
-                  opacity: 1.
-                  pulsingInterval: 2.
-                  color: [ 0, 0, 0 ]
-                  fadeIn: 0.
-                  fadeOut: 0.
-                  zIndex: -10
-                  annotationId: 63001000
-                  sectionId: 63001
-                  layer: -1
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: Enactive
-                  type: Animation
-                  path: "0063/00063002/after.png"
-                  maskType: 20
-                  maskPath: "0063/00063002/discrMask.png"
-                  maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0000000000000000e-001,
-                      5.0000000000000000e-001 ]
-         -
-            sectionId: 63002
-            sectionType: 1002
-            channelId: main
-            distance: 1.
-            startFrame: 463
-            stopFrame: 472
-            focusFrame: 463
-            focusPoint: { values:[ 944., 442. ], type:Vector2 }
-            focusPose:
-               rows: 4
-               cols: 4
-               values: [ 1., 0., 0., 0., 0., 1., 0., 0., 0., 0., 1., 0.,
-                   0., 0., 0., 1. ]
-               type: Matrix
-            focusROI:
-               type: "Vector2[][]"
-               values:
-                  []
-            minDurationRelTS: "0"
-            animationPeriod: "0"
-            recordId: Action_20180109T153619
-            homography:
-               rows: 3
-               cols: 3
-               values: [ 1., 0., 0., 0., 1., 0., 0., 0., 1. ]
-               type: Matrix
-            similarities:
-               []
-            annotations:
-               -
-                  source: [ 640., 0. ]
-                  target: [ 640., 720. ]
-                  sourceTrackingType: 3
-                  targetTrackingType: 3
-                  opacity: 8.9999997615814209e-001
-                  pulsingInterval: -1.
-                  color: [ 0, 0, 0 ]
-                  fadeIn: 0.
-                  fadeOut: 0.
-                  zIndex: -10
-                  annotationId: 63002000
-                  sectionId: 63002
-                  layer: 1
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: InitOverlay
-                  type: Animation
-                  path: "0063/00063002/init.avi"
-                  maskType: 2
-                  maskPath: ""
-                  maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0000000000000000e-001,
-                      5.0000000000000000e-001 ]
-               -
-                  source: [ 170., -300. ]
-                  target: [ 170., -150. ]
-                  sourceTrackingType: 5
-                  targetTrackingType: 5
-                  opacity: 8.9999997615814209e-001
-                  pulsingInterval: -1.
-                  color: [ 0, 0, 0 ]
-                  fadeIn: 0.
-                  fadeOut: 0.
-                  zIndex: -10
-                  border:
-                     source: [ 640., 0. ]
-                     target: [ 640., 720. ]
-                     sourceTrackingType: 8
-                     targetTrackingType: 8
-                     opacity: 1.
-                     pulsingInterval: -1.
-                     color: [ 255, 192, 0 ]
-                     fadeIn: 0.
-                     fadeOut: 0.
-                     zIndex: 0
-                     annotationId: -1
-                     sectionId: -1
-                     layer: -1
-                     command: ""
-                     startRelTS: "0"
-                     runPeriod: 23
-                     duration: -1.
-                     category: Custom
-                     type: PenStroke
-                     points:
-                        - []
-                     thickness: 4
-                     closedLoop: 1
-                     interpolateStroke: 0
-                     outlineColor: [ 0, 0, 0, 0 ]
-                     stippledLine: 0
-                     startConnector: 0
-                     endConnector: 0
-                  annotationId: 63002001
-                  sectionId: 63002
-                  layer: 1
-                  command: ""
-                  startRelTS: "0"
-                  runPeriod: 23
-                  duration: -1.
-                  category: InitInstructionVideo
-                  type: Animation
-                  path: "assets-ldpi/InstructionVideos/00063000.mp4"
-                  maskType: 1
-                  maskPath: ""
-                  maskAnimationInterval: 1.5000000000000000e+000
-                  radialMaskCenter: [ 5.0000000000000000e-001,
-                      5.0000000000000000e-001 ]
-      transitions: [ { chapterId:64, label:"", condition:"" }, {
-          chapterId:65, label:"", condition:"" } ]
 transitions:
    - { from:0, to:12, label:"", condition:"" }
-   - { from:1, to:2, label:"", condition:"" }
    - { from:2, to:3, label:"", condition:"" }
    - { from:3, to:4, label:"", condition:"" }
    - { from:4, to:5, label:"", condition:"" }
@@ -21181,10 +21441,10 @@ transitions:
    - { from:7, to:8, label:"", condition:"" }
    - { from:8, to:9, label:"", condition:"" }
    - { from:9, to:11, label:"", condition:"" }
+   - { from:10, to:2, label:"", condition:"" }
    - { from:11, to:13, label:"", condition:"" }
    - { from:12, to:-1, label:A, condition:"" }
-   - { from:12, to:-1, label:B, condition:"" }
-   - { from:12, to:1, label:"gekürzte Anleitung", condition:"" }
+   - { from:12, to:10, label:"gekürzte Anleitung", condition:"" }
    - { from:12, to:20, label:komplette Anleitung, condition:"" }
    - { from:13, to:14, label:"", condition:"" }
    - { from:14, to:15, label:"", condition:"" }
@@ -21218,9 +21478,7 @@ transitions:
    - { from:50, to:51, label:"", condition:"" }
    - { from:51, to:52, label:"", condition:"" }
    - { from:52, to:53, label:"", condition:"" }
-   - { from:53, to:54, label:"", condition:"" }
    - { from:53, to:55, label:"", condition:"" }
-   - { from:54, to:55, label:"", condition:"" }
    - { from:55, to:56, label:"", condition:"" }
    - { from:56, to:57, label:"", condition:"" }
    - { from:57, to:58, label:"", condition:"" }
@@ -21229,9 +21487,7 @@ transitions:
    - { from:60, to:61, label:"", condition:"" }
    - { from:61, to:62, label:"", condition:"" }
    - { from:62, to:63, label:"", condition:"" }
-   - { from:63, to:64, label:"", condition:"" }
    - { from:63, to:65, label:"", condition:"" }
-   - { from:64, to:65, label:"", condition:"" }
    - { from:65, to:66, label:"", condition:"" }
    - { from:66, to:67, label:"", condition:"" }
    - { from:67, to:68, label:"", condition:"" }
@@ -21240,15 +21496,14 @@ transitions:
    - { from:70, to:71, label:"", condition:"" }
    - { from:71, to:72, label:"", condition:"" }
 associations:
-   - { first:1, second:1, label:validate, params:"" }
    - { first:2, second:2, label:validate, params:"" }
    - { first:3, second:3, label:validate, params:"" }
    - { first:4, second:4, label:validate, params:"" }
    - { first:5, second:5, label:validate, params:"" }
    - { first:6, second:6, label:validate, params:"" }
    - { first:9, second:9, label:validate, params:"" }
+   - { first:10, second:10, label:validate, params:"" }
    - { first:11, second:11, label:validate, params:"" }
-   - { first:14, second:14, label:validate, params:"" }
    - { first:15, second:15, label:validate, params:"" }
    - { first:16, second:16, label:validate, params:"" }
    - { first:18, second:18, label:validate, params:"" }
@@ -21271,7 +21526,6 @@ associations:
    - { first:50, second:50, label:validate, params:"" }
    - { first:51, second:51, label:validate, params:"" }
    - { first:53, second:53, label:validate, params:"" }
-   - { first:54, second:54, label:validate, params:"" }
    - { first:55, second:55, label:validate, params:"" }
    - { first:57, second:57, label:validate, params:"" }
    - { first:58, second:58, label:validate, params:"" }
@@ -21280,4 +21534,10 @@ associations:
    - { first:61, second:61, label:validate, params:"" }
    - { first:62, second:62, label:validate, params:"" }
    - { first:63, second:63, label:validate, params:"" }
+   - { first:65, second:65, label:validate, params:"" }
+   - { first:66, second:66, label:validate, params:"" }
+   - { first:67, second:67, label:validate, params:"" }
+   - { first:68, second:68, label:validate, params:"" }
+   - { first:69, second:69, label:validate, params:"" }
+   - { first:70, second:70, label:validate, params:"" }
    - { first:72, second:72, label:validate, params:"" }
