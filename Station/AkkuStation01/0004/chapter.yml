@@ -1,7 +1,7 @@
 %YAML:1.0
 ---
 chapterId: 4
-title: "2x Stützen aufstecken"
+title: "2x T-Stützen aufstecken"
 description: auf korrekte Position achten
 chapterType: 2001
 options:
@@ -137,6 +137,32 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
+            source: [ 1.0778018798828125e+003, 1.0754855346679687e+002 ]
+            target: [ 1.0778018798828125e+003, 4.0754879760742187e+002 ]
+            sourceTrackingType: 3
+            targetTrackingType: 3
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 4000004
+            sectionId: 4000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: "assets/DSC_0594.jpg"
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
             source: [ 6.0550000000000000e+002, 0. ]
             target: [ 6.0550000000000000e+002, 720. ]
             sourceTrackingType: 3
@@ -192,32 +218,7 @@ sections:
       similarities:
          []
       annotations:
-         -
-            source: [ 606., 292. ]
-            target: [ 606., 512. ]
-            sourceTrackingType: 3
-            targetTrackingType: 3
-            opacity: 1.
-            pulsingInterval: 2.
-            color: [ 0, 0, 0 ]
-            fadeIn: 0.
-            fadeOut: 0.
-            zIndex: -10
-            annotationId: 4001000
-            sectionId: 4001
-            layer: -1
-            command: ""
-            startRelTS: "0"
-            runPeriod: 23
-            duration: -1.
-            category: Enactive
-            type: Animation
-            path: "0004/00004002/after.png"
-            maskType: 20
-            maskPath: "0004/00004002/discrMask.png"
-            maskAnimationInterval: 1.5000000000000000e+000
-            radialMaskCenter: [ 5.0000000000000000e-001,
-                5.0000000000000000e-001 ]
+         []
    -
       sectionId: 4002
       sectionType: 1002

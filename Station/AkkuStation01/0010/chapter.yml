@@ -1,11 +1,10 @@
 %YAML:1.0
 ---
 chapterId: 10
-title: Platte platzieren
+title: Bodenplatte platzieren
 description: ""
 chapterType: 2001
 options:
-   automaticFocusRoiRadius: 0
    locationAnnotation: 1
    customActionView: 1
    customValidationView: 1
@@ -138,6 +137,32 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
+            source: [ 3.7080194091796875e+002, 3.5554861450195312e+002 ]
+            target: [ 2.4380287170410156e+002, 8.4548881530761719e+001 ]
+            sourceTrackingType: 2
+            targetTrackingType: 2
+            opacity: 8.9999997615814209e-001
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 1.
+            zIndex: 0
+            annotationId: 10000004
+            sectionId: 10000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: assets/directional/green/down/
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
             source: [ 360., 0. ]
             target: [ 360., 720. ]
             sourceTrackingType: 3
@@ -193,32 +218,7 @@ sections:
       similarities:
          []
       annotations:
-         -
-            source: [ 343., 81. ]
-            target: [ 343., 301. ]
-            sourceTrackingType: 3
-            targetTrackingType: 3
-            opacity: 1.
-            pulsingInterval: 2.
-            color: [ 0, 0, 0 ]
-            fadeIn: 0.
-            fadeOut: 0.
-            zIndex: -10
-            annotationId: 10001000
-            sectionId: 10001
-            layer: -1
-            command: ""
-            startRelTS: "0"
-            runPeriod: 23
-            duration: -1.
-            category: Enactive
-            type: Animation
-            path: "0010/00010002/after.png"
-            maskType: 20
-            maskPath: "0010/00010002/discrMask.png"
-            maskAnimationInterval: 1.5000000000000000e+000
-            radialMaskCenter: [ 5.0000000000000000e-001,
-                5.0000000000000000e-001 ]
+         []
    -
       sectionId: 10002
       sectionType: 1002

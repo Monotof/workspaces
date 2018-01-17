@@ -137,6 +137,59 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
+            source: [ 1.0818022460937500e+003, 9.1548324584960938e+001 ]
+            target: [ 1.0798022460937500e+003, 3.5754855346679687e+002 ]
+            sourceTrackingType: 3
+            targetTrackingType: 3
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 8000004
+            sectionId: 8000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: "assets/DSC_0596.jpg"
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
+            source: [ 1.1553333740234375e+003, 282. ]
+            target: [ 1.1553333740234375e+003, 312. ]
+            sourceTrackingType: 7
+            targetTrackingType: 3
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 255, 255, 255 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 8000005
+            sectionId: 8000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Label
+            text: Aussparung
+            fontPath: "assets/fonts/Exo2-Regular.ttf"
+            centered: 0
+            autoLineBreakCharacterCount : -1
+            drawShadow: 1
+            fontSizeSingleLine: 1
+            backgroundColor: [ 0, 0, 0, 0 ]
+         -
             source: [ 6.1050000000000000e+002, 0. ]
             target: [ 6.1050000000000000e+002, 720. ]
             sourceTrackingType: 3

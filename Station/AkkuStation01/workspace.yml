@@ -1,18 +1,28 @@
 %YAML:1.0
 ---
 versionCode: 1710118
-timestamp: "131600605983590000"
+timestamp: "131606736132330000"
 workflows:
    -
       id: 0
       chapters: []
-chapters: [ 0, 10, 2, 3, 4, 5, 6, 7, 8, 9, 19, 11, 18, 13, 14, 15, 16,
+   -
+      id: 23
+      chapters: [ 72, 20, 21, 71, 70, 69, 28, 29, 30, 26, 24, 27, 51, 52,
+          53, 67, 40, 48, 45, 38, 39, 66, 63, 55, 42, 43, 47, 68, 31, 35,
+          46, 49, 50, 37, 41, 65, 32, 57, 62, 61, 56, 60, 58, 59 ]
+   -
+      id: 22
+      chapters: [ 10, 2, 4, 5, 3, 15, 17, 13, 16, 6, 7, 19, 11, 8, 18, 9,
+          14 ]
+chapters: [ 0, 10, 25, 3, 4, 5, 6, 7, 8, 9, 19, 11, 18, 13, 14, 15, 16,
     17, 72, 12, 20, 21, 71, 70, 24, 69, 26, 27, 28, 29, 30, 31, 32, 68,
     67, 35, 66, 37, 38, 39, 40, 41, 42, 43, 65, 45, 46, 47, 48, 49, 50,
-    51, 52, 53, 63, 55, 56, 57, 58, 59, 60, 61, 62 ]
+    51, 52, 53, 63, 55, 56, 57, 58, 59, 60, 61, 62, 23, 22, 1 ]
 transitions:
    - { from:0, to:12, label:"", condition:"" }
-   - { from:2, to:3, label:"", condition:"" }
+   - { from:1, to:-1, label:no, condition:"" }
+   - { from:1, to:12, label:yes, condition:"" }
    - { from:3, to:4, label:"", condition:"" }
    - { from:4, to:5, label:"", condition:"" }
    - { from:5, to:6, label:"", condition:"" }
@@ -20,7 +30,7 @@ transitions:
    - { from:7, to:8, label:"", condition:"" }
    - { from:8, to:9, label:"", condition:"" }
    - { from:9, to:11, label:"", condition:"" }
-   - { from:10, to:2, label:"", condition:"" }
+   - { from:10, to:25, label:"", condition:"" }
    - { from:11, to:13, label:"", condition:"" }
    - { from:12, to:-1, label:A, condition:"" }
    - { from:12, to:10, label:"gekürzte Anleitung", condition:"" }
@@ -31,9 +41,11 @@ transitions:
    - { from:16, to:17, label:"", condition:"" }
    - { from:17, to:18, label:"", condition:"" }
    - { from:18, to:19, label:"", condition:"" }
+   - { from:19, to:1, label:"", condition:"" }
    - { from:20, to:21, label:"", condition:"" }
    - { from:21, to:24, label:"", condition:"" }
    - { from:24, to:26, label:"", condition:"" }
+   - { from:25, to:3, label:"", condition:"" }
    - { from:26, to:27, label:"", condition:"" }
    - { from:27, to:28, label:"", condition:"" }
    - { from:28, to:29, label:"", condition:"" }
@@ -75,20 +87,74 @@ transitions:
    - { from:70, to:71, label:"", condition:"" }
    - { from:71, to:72, label:"", condition:"" }
 associations:
-   - { first:2, second:2, label:validate }
-   - { first:3, second:3, label:validate }
-   - { first:4, second:4, label:validate }
+   - { first:3, second:22, label:"" }
+   - { first:4, second:22, label:"" }
    - { first:5, second:5, label:validate }
+   - { first:5, second:22, label:"" }
    - { first:6, second:6, label:validate }
+   - { first:6, second:22, label:"" }
+   - { first:7, second:22, label:"" }
+   - { first:8, second:22, label:"" }
    - { first:9, second:9, label:validate }
-   - { first:10, second:10, label:validate }
+   - { first:9, second:22, label:"" }
+   - { first:10, second:22, label:"" }
    - { first:11, second:11, label:validate }
+   - { first:11, second:22, label:"" }
+   - { first:13, second:22, label:"" }
+   - { first:14, second:22, label:"" }
    - { first:15, second:15, label:validate }
+   - { first:15, second:22, label:"" }
    - { first:16, second:16, label:validate }
-   - { first:18, second:18, label:validate }
-   - { first:19, second:19, label:validate }
+   - { first:16, second:22, label:"" }
+   - { first:17, second:22, label:"" }
+   - { first:18, second:22, label:"" }
+   - { first:19, second:22, label:"" }
    - { first:20, second:20, label:validate }
+   - { first:20, second:23, label:"" }
    - { first:21, second:21, label:validate }
+   - { first:21, second:23, label:"" }
+   - { first:23, second:24, label:"" }
+   - { first:23, second:26, label:"" }
+   - { first:23, second:27, label:"" }
+   - { first:23, second:28, label:"" }
+   - { first:23, second:29, label:"" }
+   - { first:23, second:30, label:"" }
+   - { first:23, second:31, label:"" }
+   - { first:23, second:32, label:"" }
+   - { first:23, second:35, label:"" }
+   - { first:23, second:37, label:"" }
+   - { first:23, second:38, label:"" }
+   - { first:23, second:39, label:"" }
+   - { first:23, second:40, label:"" }
+   - { first:23, second:41, label:"" }
+   - { first:23, second:42, label:"" }
+   - { first:23, second:43, label:"" }
+   - { first:23, second:45, label:"" }
+   - { first:23, second:46, label:"" }
+   - { first:23, second:47, label:"" }
+   - { first:23, second:48, label:"" }
+   - { first:23, second:49, label:"" }
+   - { first:23, second:50, label:"" }
+   - { first:23, second:51, label:"" }
+   - { first:23, second:52, label:"" }
+   - { first:23, second:53, label:"" }
+   - { first:23, second:55, label:"" }
+   - { first:23, second:56, label:"" }
+   - { first:23, second:57, label:"" }
+   - { first:23, second:58, label:"" }
+   - { first:23, second:59, label:"" }
+   - { first:23, second:60, label:"" }
+   - { first:23, second:61, label:"" }
+   - { first:23, second:62, label:"" }
+   - { first:23, second:63, label:"" }
+   - { first:23, second:65, label:"" }
+   - { first:23, second:66, label:"" }
+   - { first:23, second:67, label:"" }
+   - { first:23, second:68, label:"" }
+   - { first:23, second:69, label:"" }
+   - { first:23, second:70, label:"" }
+   - { first:23, second:71, label:"" }
+   - { first:23, second:72, label:"" }
    - { first:27, second:27, label:validate }
    - { first:29, second:29, label:validate }
    - { first:30, second:30, label:validate }

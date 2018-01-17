@@ -137,6 +137,32 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
+            source: [ 1.1148022460937500e+003, 8.6548637390136719e+001 ]
+            target: [ 1.1148022460937500e+003, 3.8654888916015625e+002 ]
+            sourceTrackingType: 3
+            targetTrackingType: 3
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 13000004
+            sectionId: 13000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: "assets/DSC_0595.jpg"
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
             source: [ 6.1750000000000000e+002, 0. ]
             target: [ 6.1750000000000000e+002, 720. ]
             sourceTrackingType: 3

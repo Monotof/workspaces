@@ -6,6 +6,7 @@ description: ""
 chapterType: 2001
 options:
    locationAnnotation: 1
+   initAnnotation: 1
    customActionView: 1
    customValidationView: 1
 sections:
@@ -136,6 +137,32 @@ sections:
             page: 1
             thumbnail: ""
             runDirectly: 0
+         -
+            source: [ 1.1098020019531250e+003, 1.0254878997802734e+002 ]
+            target: [ 1.1098020019531250e+003, 4.0254827880859375e+002 ]
+            sourceTrackingType: 3
+            targetTrackingType: 3
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 7000004
+            sectionId: 7000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: "assets/DSC_0595.jpg"
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
          -
             source: [ 6.1350000000000000e+002, 0. ]
             target: [ 6.1350000000000000e+002, 720. ]

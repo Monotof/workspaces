@@ -1,8 +1,13 @@
 %YAML:1.0
 ---
 chapterId: 5
-title: hinteren Strang einsetzten
+title: hinteres Akku-Set einsetzten
 description: roter Rand nach rechts
+fields:
+   Info: Mehr Info
+   Left_Hand: ""
+   Right_Hand: ""
+   Symbol: ""
 chapterType: 2001
 options:
    locationAnnotation: 1

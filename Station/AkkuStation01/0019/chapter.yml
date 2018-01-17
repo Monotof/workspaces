@@ -2,7 +2,7 @@
 ---
 chapterId: 19
 title: Deckel aufsetzen
-description: Nasen vorne unten hinter Kante der Platte
+description: "Nasen vorne unten hinter Kante der Platte^Schrauben vom Körper weg"
 chapterType: 2001
 options:
    locationAnnotation: 1
@@ -192,32 +192,7 @@ sections:
       similarities:
          []
       annotations:
-         -
-            source: [ 480., 222. ]
-            target: [ 480., 442. ]
-            sourceTrackingType: 3
-            targetTrackingType: 3
-            opacity: 1.
-            pulsingInterval: 2.
-            color: [ 0, 0, 0 ]
-            fadeIn: 0.
-            fadeOut: 0.
-            zIndex: -10
-            annotationId: 19001000
-            sectionId: 19001
-            layer: -1
-            command: ""
-            startRelTS: "0"
-            runPeriod: 23
-            duration: -1.
-            category: Enactive
-            type: Animation
-            path: "0019/00019002/after.png"
-            maskType: 20
-            maskPath: "0019/00019002/discrMask.png"
-            maskAnimationInterval: 1.5000000000000000e+000
-            radialMaskCenter: [ 5.0000000000000000e-001,
-                5.0000000000000000e-001 ]
+         []
    -
       sectionId: 19002
       sectionType: 1002

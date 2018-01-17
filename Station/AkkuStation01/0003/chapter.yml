@@ -2,7 +2,7 @@
 ---
 chapterId: 3
 title: rechte Seitenwand aufstellen
-description: Aussparung nach vorne
+description: "Aussparung nach vorne (zum Körper hin)"
 chapterType: 2001
 options:
    locationAnnotation: 1
@@ -137,6 +137,59 @@ sections:
             thumbnail: ""
             runDirectly: 0
          -
+            source: [ 1.9980160522460938e+002, 1.4254847717285156e+002 ]
+            target: [ 1.9880191040039062e+002, 3.3754895019531250e+002 ]
+            sourceTrackingType: 3
+            targetTrackingType: 3
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 3000004
+            sectionId: 3000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: "assets/DSC_0597.jpg"
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
+            source: [ 6.2666671752929688e+001, 1.6866665649414062e+002 ]
+            target: [ 6.2666671752929688e+001, 1.9866665649414062e+002 ]
+            sourceTrackingType: 7
+            targetTrackingType: 3
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 255, 255, 255 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 3000005
+            sectionId: 3000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Label
+            text: Aussparung
+            fontPath: "assets/fonts/Exo2-Regular.ttf"
+            centered: 0
+            autoLineBreakCharacterCount : -1
+            drawShadow: 1
+            fontSizeSingleLine: 1
+            backgroundColor: [ 0, 0, 0, 0 ]
+         -
             source: [ 9.0850000000000000e+002, 0. ]
             target: [ 9.0850000000000000e+002, 720. ]
             sourceTrackingType: 3
@@ -192,32 +245,7 @@ sections:
       similarities:
          []
       annotations:
-         -
-            source: [ 909., 312. ]
-            target: [ 909., 532. ]
-            sourceTrackingType: 3
-            targetTrackingType: 3
-            opacity: 1.
-            pulsingInterval: 2.
-            color: [ 0, 0, 0 ]
-            fadeIn: 0.
-            fadeOut: 0.
-            zIndex: -10
-            annotationId: 3001000
-            sectionId: 3001
-            layer: -1
-            command: ""
-            startRelTS: "0"
-            runPeriod: 23
-            duration: -1.
-            category: Enactive
-            type: Animation
-            path: "0003/00003002/after.png"
-            maskType: 20
-            maskPath: "0003/00003002/discrMask.png"
-            maskAnimationInterval: 1.5000000000000000e+000
-            radialMaskCenter: [ 5.0000000000000000e-001,
-                5.0000000000000000e-001 ]
+         []
    -
       sectionId: 3002
       sectionType: 1002

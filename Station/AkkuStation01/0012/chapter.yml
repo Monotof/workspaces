@@ -6,6 +6,7 @@ description: "^"
 fields:
    answer_A: komplette Anleitung
    answer_B: "gekürzte Anleitung"
+   comments: ""
 chapterType: 4000
 options:
    locationAnnotation: 1
