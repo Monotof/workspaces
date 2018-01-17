@@ -3,8 +3,6 @@
 chapterId: 10
 title: Bodenplatte platzieren
 description: ""
-fields:
-   {}
 chapterType: 2001
 options:
    locationAnnotation: 1
@@ -159,6 +157,32 @@ sections:
             category: Custom
             type: Animation
             path: assets/directional/green/down/
+            maskType: 1
+            maskPath: ""
+            maskAnimationInterval: 1.5000000000000000e+000
+            radialMaskCenter: [ 5.0000000000000000e-001,
+                5.0000000000000000e-001 ]
+         -
+            source: [ 1.0828022460937500e+003, 8.8548393249511719e+001 ]
+            target: [ 1.0828022460937500e+003, 3.8854861450195313e+002 ]
+            sourceTrackingType: 3
+            targetTrackingType: 3
+            opacity: 1.
+            pulsingInterval: -1.
+            color: [ 0, 0, 0 ]
+            fadeIn: 0.
+            fadeOut: 0.
+            zIndex: 0
+            annotationId: 10000005
+            sectionId: 10000
+            layer: -1
+            command: ""
+            startRelTS: "0"
+            runPeriod: 23
+            duration: -1.
+            category: Custom
+            type: Animation
+            path: "assets/DSC_0598.JPG"
             maskType: 1
             maskPath: ""
             maskAnimationInterval: 1.5000000000000000e+000
